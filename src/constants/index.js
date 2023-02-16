@@ -25,16 +25,16 @@ import {
 
 export const navLinks = [
     {
-        id: "nav1",
+        id: "home",
         title: "Home",
     },
     {
-        id: "nav2",
-        title: "Nilai Normal",
+        id: "penjelasan",
+        title: "Stunting",
     },
     {
-        id: "nav3",
-        title: "nav3",
+        id: "ciri-ciri",
+        title: "Ciri-Ciri",
     },
     {
         id: "nav4",

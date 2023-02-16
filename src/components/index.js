@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Penjelasan from "./Penjelasan";
 import Ciri from "./Ciri";
+import Nilai_normal from "./Nilai_normal";
 
 // import Billing from "./Billing";
 // import CardDeal from "./CardDeal";
@@ -18,6 +19,7 @@ export {
     Hero,
     Penjelasan,
     Ciri,
+    Nilai_normal,
     // Billing,
     // CardDeal,
     // Business,

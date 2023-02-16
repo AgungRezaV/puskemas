@@ -32,6 +32,7 @@ import head_memory from "./head-side-memory.svg";
 import introvert from "./square-person-confined.svg";
 import person_dress from "./person-dress.svg";
 import bed_solid from "./bed-solid.svg";
+import doctor_exam from "./doctor-examination.jpg";
 
 
 export {
@@ -69,4 +70,5 @@ export {
   introvert,
   person_dress,
   bed_solid,
+  doctor_exam,
 };

@@ -7,9 +7,9 @@
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
-    #68e58d -278.56%,
-    #dcd9d9 -78.47%,
-    #ade0a7 91.61%
+    #a2a6f5 -278.56%,
+    #788ef2 -78.47%,
+    #6888e1 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -21,12 +21,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #fd5b5b 0.89%,
+    #3f69f2 17.23%,
+    #c06065 42.04%,
+    #911367 55.12%,
+    #df2d3e 71.54%,
+    #f15685 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -107,9 +107,17 @@
   }
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
+  color: whitesmoke;
 }
 
 .feedback-container .feedback-card:last-child {
@@ -122,6 +130,18 @@
 
 .feedback-card:hover {
   background: var(--black-gradient);
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  transform: scale(1.1);
+  background-color: blue;
+}
+
+.image-card{
+  background: transparent;
+}
+
+.image-card:hover{
+  color: whitesmoke;
 }
 
 .blue__gradient {

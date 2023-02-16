@@ -1,9 +1,9 @@
-import { quotes } from "../assets";
+
 
 const feedbackCard = ({ content, icon }) => (
-    <div className='flex justify-start content flex-col px-10 rounded-[20px] w-[350px] max-h-[250px] md:mr-10  feedback-card'>
-        <img src={icon} alt="quotes" className="w-[42px] h-[27px] object-contain mt-5"/>
-        <p className='font-poppins font-normal text-[18px] text-black my-5 text-left'>{content}</p>
+    <div id="ciri_card" className='flex content flex-col w-[350px] mt-10 ml-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-500 ...'>
+        <img src={icon} alt="quotes" className="w-[42px] h-[42px] mt-5 center"/>
+        <p className='font-poppins text-center font-normal text-[18px] text-black my-5 text-left'>{content}</p>
     </div>
 );
 
