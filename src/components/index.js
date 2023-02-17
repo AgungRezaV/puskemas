@@ -4,6 +4,8 @@ import Penjelasan from "./Penjelasan";
 import Ciri from "./Ciri";
 import Nilai_normal from "./Nilai_normal";
 import Table from "./Table";
+import Dampak from "./Dampak";
+import Pencegahan from "./Pencegahan";
 // import Billing from "./Billing";
 // import CardDeal from "./CardDeal";
 // import Business from "./Business";
@@ -21,6 +23,8 @@ export {
     Ciri,
     Nilai_normal,
     Table,
+    Dampak,
+    Pencegahan,
     // Billing,
     // CardDeal,
     // Business,
