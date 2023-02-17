@@ -45,7 +45,7 @@ const Table = () => {
         return (
             <div>
                 <h1 className="text-center my-5 text-poppins font-bold uppercase">Standar Tinggi Badan Menurut Umur (TB/U) Anak Laki-Laki Umur 24 – 60 Bulan</h1>
-                <div className="flex flex-col overflow-y-scroll mb-2 max-h-[400px]">
+                <div className="flex flex-col  mb-2 max-h-[400px]">
                     <p className="mb-2 text-gray-600 text-[12px] text-poppins">Keterangan: * Pengukuran TB dilakukan dalam keadaan anak berdiri.</p>
                     <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                         <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
@@ -173,7 +173,7 @@ const Table = () => {
         <div>
             <div>
                 <h1 className="text-center my-5 text-poppins font-bold uppercase">Standar Panjang Badan Menurut Umur (PB/U) Anak Laki-Laki Umur 0 – 24 Bulan</h1>
-                <div className="flex flex-col overflow-y-scroll mb-2 max-h-[400px]">
+                <div className="flex flex-col overflow-y-always mb-2 max-h-[400px]">
                     <p className="mb-2 text-gray-600 text-[12px] text-poppins">Keterangan: * Pengukuran panjang badan dilakukan dalam keadaan anak telentang.</p>
                     <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                         <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
