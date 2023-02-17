@@ -3,9 +3,9 @@ import { doctor, robot } from '../assets';
 
 const Hero = () => (
     <section id='home' className={`flex md:flex-row flex-col`}>
-        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 px-16`}>
+        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-16 px-12`}>
             <div className='flex flex-row justify-between items-center w-full'>
-                <h1 className='flex-1 font-poppins font-normal ss:text-[72px] text-[42px] ss:leading-[100px] leading-[75px]'>
+                <h1 className='flex-1 font-poppins font-normal ss:text-[72px] text-[42px] ss:mt-0 mt-6'>
                     Web
                     <span className='text-blue-900 font-bold'> Stunting</span> {" "}
                 </h1>
