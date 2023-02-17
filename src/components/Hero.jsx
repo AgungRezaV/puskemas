@@ -24,7 +24,7 @@ const Hero = () => (
         </div>
 
         <div>
-            <img src={doctor} alt="robot" className='xl:w-[100%] w-[100%] h-[100%] relative z-[5]' />
+            <img src={doctor} alt="doctor" className='md:w-[100%] w-[50%] md:h-[100%] h-[50%] center relative z-[5]' />
         </div>
     </section>
 );

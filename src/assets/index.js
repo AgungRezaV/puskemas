@@ -33,7 +33,7 @@ import introvert from "./square-person-confined.svg";
 import person_dress from "./person-dress.svg";
 import bed_solid from "./bed-solid.svg";
 import doctor_exam from "./doctor-examination.jpg";
-
+import sampul_web from "./sampul_web.png";
 
 export {
   airbnb,
@@ -71,4 +71,5 @@ export {
   person_dress,
   bed_solid,
   doctor_exam,
+  sampul_web,
 };
