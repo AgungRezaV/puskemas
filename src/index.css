@@ -166,8 +166,19 @@
   background-color: #ffffff;
 }
 
-table {
+.table {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.right-img {
+  margin-right: 0;
 }
