@@ -2,8 +2,8 @@ import styles from './style';
 import { Navbar, Hero, Penjelasan, Ciri, Table } from './components';
 
 const App = () => (
-  <div className='bg-gray-100 w-full overflow-hidden'>
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+  <div className='bg-gray-100 w-full overflow-hidden '>
+    <div className={`${styles.paddingX} ${styles.flexCenter} `}>
       <div className="w-full">
         <Navbar />
       </div>
@@ -22,7 +22,7 @@ const App = () => (
       </div>
 
       <div className={`bg-blue-100 rounded-[20px] my-10 ${styles.paddingX} ${styles.flexStart}`}>
-        <div className="w-full">
+        <div className="w-full my-5">
           <Table />
         </div>
       </div>
