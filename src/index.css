@@ -165,3 +165,9 @@
   z-index: 9999;
   background-color: #ffffff;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
