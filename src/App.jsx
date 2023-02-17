@@ -19,14 +19,13 @@ const App = () => (
       <div className="w-full">
         <Penjelasan />
         <Ciri />
-        <Table />
       </div>
 
-      {/* <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Nilai_normal />
+      <div className={`bg-blue-100 rounded-[20px] my-10 ${styles.paddingX} ${styles.flexStart}`}>
+        <div className="w-full">
+          <Table />
         </div>
-      </div> */}
+      </div>
 
     </div>
   </div>
