@@ -9,7 +9,7 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <nav className='w-full flex padding py-6 justify-between items-center navbar'>
+        <nav className='w-full flex padding py-6 justify-between items-center '>
             <div className='flex flex-col'>
                 <h1 className='text-[52px] font-bold tracking-widest text-blue-800'> PUSTING </h1>
                 <p>Pusat Informasi Stunting</p>
