@@ -1,4 +1,4 @@
-import { feedback } from "../constants";
+import { ciri_card } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
 import { doctor_exam } from "../assets";
@@ -14,8 +14,8 @@ const Ciri = () => (
             </div>
         </div>
 
-        <div className="flex flex-wrap justify-center w-full feedback-container relative z-[1]">
-            {feedback.map((card) => (
+        <div className="flex flex-wrap justify-evenly w-full feedback-container relative z-[1]">
+            {ciri_card.map((card) => (
                 <FeedbackCard key={card.id} {...card} />
             ))}
         </div>

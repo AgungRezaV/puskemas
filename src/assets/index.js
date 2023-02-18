@@ -34,6 +34,8 @@ import person_dress from "./person-dress.svg";
 import bed_solid from "./bed-solid.svg";
 import doctor_exam from "./doctor-examination.jpg";
 import sampul_web from "./sampul_web.png";
+import dampak_stunting from "./dampak_stunting.jpeg";
+import cegah_stunting from "./cegah_stunting.jpeg";
 
 export {
   airbnb,
@@ -72,4 +74,6 @@ export {
   bed_solid,
   doctor_exam,
   sampul_web,
+  dampak_stunting,
+  cegah_stunting,
 };

@@ -87,7 +87,62 @@ export const features = [
     },
 ];
 
-export const feedback = [
+export const features_two = [
+    {
+        id: "feature-1",
+        icon: star,
+        title: "Sasaran Pranikah",
+        content:
+            "1. Pencegahan pernikahan dini dan kehamilan pada remaja puteri.",
+        content2:
+            "2.	Pemberian tablet tambah darah pada remaja puteri. ",
+        content3:
+            "3.	Konseling pranikah.",
+    },
+    {
+        id: "feature-2",
+        icon: star,
+        title: "Sasaran Ibu Hamil",
+        content:
+            "• Pemberian layanan antenatal sesuai dengan standar, termasuk mengatasi penyakit kronis pada ibu, pemberian makanan tambahan pada ibu hamil KEK, pemberian Buku KIA, edukasi tentang inisiasi menyusu dini (IMD) dan promosi ASI eksklusif.",
+        content2:
+            "• Melakukan persalinan dengan dokter atau bidan yang ahli.",
+        content3:
+            "• Memberikan makanan tambahan pada ibu hamil untuk mengatasi kekurangan energi dan protein kronis.",
+        content4:
+            "4.	Memberikan tablet tambah darah minimal 90 tablet selama kehamilan.",
+        content5:
+            "5.	Mengatasi kekurangan zat besi dan asam folat.",
+        content6:
+            "6.	Mengatasi kekurangan iodium.",
+        content7:
+            "7.	Menanggulangi kecacingan pada ibu hamil.",
+        content8:
+            "8.	Melindungi ibu hamil dari Malaria.",
+        content9:
+            "9.	Hindari asap rokok dan asap kendaraan.",
+    },
+    {
+        id: "feature-3",
+        icon: star,
+        title: "Sasaran Ibu Menyusui dan Anak Usia 0-6 Bulan",
+        content:
+            "• 1 dari 3 ibu hamil anemia.",
+        content2:
+            "• Makanan bergizi mahal.",
+    },
+    {
+        id: "feature-4",
+        icon: star,
+        title: "Sasaran Ibu Menyusui dan Anak Usia 7-23 bulan",
+        content:
+            "• 1 dari 5 rumah tangga masih BAB diruang terbuka.",
+        content2:
+            "• 1 dari 3 rumah tangga belum memiliki akses ke air minum bersih.",
+    },
+];
+
+export const ciri_card = [
     {
         id: "feedback-1",
         icon: height,
@@ -138,6 +193,83 @@ export const feedback = [
             "Anak mudah terserang berbagai penyakit infeksi.",
     },
 ];
+
+export const sensitif_card = [
+    {
+        id: "sensitif-card-1",
+        icon: height,
+        content:
+            "Menyediakan dan Memastikan Akses pada Air Bersih. ",
+
+    },
+    {
+        id: "sensitif-card-2",
+        icon: weight,
+        content:
+            "Menyediakan dan Memastikan Akses pada Sanitasi.",
+    },
+    {
+        id: "sensitif-card-3",
+        icon: face_smile,
+        content:
+            "Melakukan Fortifikasi Bahan Pangan.",
+    },
+    {
+        id: "sensitif-card-4",
+        icon: tooth,
+        content:
+            "Menyediakan Akses kepada Layanan Kesehatan dan Keluarga Berencana (KB).",
+    },
+    {
+        id: "sensitif-card-5",
+        icon: head_memory,
+        content:
+            "Menyediakan Jaminan Kesehatan Nasional (JKN).",
+    },
+    {
+        id: "sensitif-card-6",
+        icon: introvert,
+        content:
+            "Menyediakan Jaminan Persalinan Universal (Jampersal).",
+    },
+    {
+        id: "sensitif-card-7",
+        icon: person_dress,
+        content:
+            "Memberikan Pendidikan Pengasuhan pada Orang tua.",
+    },
+    {
+        id: "sensitif-card-8",
+        icon: bed_solid,
+        content:
+            "Memberikan Pendidikan Anak Usia Dini Universal.",
+    },
+    {
+        id: "sensitif-card-9",
+        icon: bed_solid,
+        content:
+            "Memberikan Pendidikan Gizi Masyarakat.",
+    },
+    {
+        id: "sensitif-card-10",
+        icon: bed_solid,
+        content:
+            "Memberikan Edukasi Kesehatan Seksual dan Reproduksi, serta Gizi pada Remaja.",
+    },
+    {
+        id: "sensitif-card-11",
+        icon: bed_solid,
+        content:
+            "Menyediakan Bantuan dan Jaminan Sosial bagi Keluarga Miskin.",
+    },
+    {
+        id: "sensitif-card-12",
+        icon: bed_solid,
+        content:
+            "Meningkatkan Ketahanan Pangan dan Gizi.",
+    },
+];
+
 
 export const stats = [
     {

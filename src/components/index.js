@@ -6,6 +6,7 @@ import Nilai_normal from "./Nilai_normal";
 import Table from "./Table";
 import Dampak from "./Dampak";
 import Pencegahan from "./Pencegahan";
+import Sensitif from "./Sensitif";
 // import Billing from "./Billing";
 // import CardDeal from "./CardDeal";
 // import Business from "./Business";
@@ -25,6 +26,7 @@ export {
     Table,
     Dampak,
     Pencegahan,
+    Sensitif,
     // Billing,
     // CardDeal,
     // Business,
