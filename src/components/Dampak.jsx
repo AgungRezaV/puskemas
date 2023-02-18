@@ -1,16 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { dampak_stunting } from '../assets'
 import styles from '../style';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Dampak = () => {
+    useEffect(() => {
+        AOS.init({duration: 3000});
+    }, []);
+
     return (
-        <div className='flex flex-col font-poppins'>
-            <h1 className='text-center xs:text-[72px] text-[56px] xs:tracking-widest tracking-wide font-semibold'>Dampak stunting</h1>
-            <div className='flex md:flex-row flex-col mt-5'>
+        <div id='dampak' className={`flex flex-col font-poppins`}>
+            <h1 className='text-center xs:text-[72px] text-[56px] xs:tracking-widest tracking-wide font-semibold' data-aos='fade-right'>Dampak stunting</h1>
+            <div className='flex md:flex-row flex-col mt-5' >
                 <div>
-                    <img src={dampak_stunting} alt="dampak_stunting" className={`md:w-[650px] w-[350px] md:h-[95%] h-[50%] center relative z-[5]`} />
+                    <img src={dampak_stunting} alt="dampak_stunting" className={`md:w-[650px] w-[350px] md:h-[95%] h-[50%] center relative z-[5]`} data-aos='fade-right' />
                 </div>
-                <div className='flex flex-col gap-4 items-center w-full md:ml-10 ml-0 md:my-0 my-5'>
+                <div className='flex flex-col gap-4 items-center w-full md:ml-10 ml-0 md:my-0 my-5' data-aos='fade-left'>
                     <h4 className='text-center text-[24px]'>Dampak buruk yang dapat ditimbulkan oleh stunting :<br /></h4>
                     <p className={`${styles.paragraph} text-justify`}>Dampak jangka pendek adalah terganggunya perkembangan otak, kecerdasan, gangguan pertumbuhan fisik, dan gangguan metabolisme dalam tubuh.</p>
                     <p className={`${styles.paragraph} text-justify`}>Dampak jangka panjang yang dapat ditimbulkan adalah menurunnya kemampuan kognitif dan prestasi belajar, menurunnya kekebalan tubuh sehingga

@@ -1,10 +1,13 @@
+import React, { useEffect } from 'react';
 import { features } from '../constants';
 import styles, { layout } from '../style';
 import { doctor, sampul_web } from '../assets';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const PenyebabCard = ({ title, content, content2, content3, content4, i }) => (
     // ${i !== features.length - 1 ? 'mb-6' : 'mb-0'}
-    <div className={`flex flex-wrap: wrap rounded-[5px] sm:p-10 p-2 feature-card transition ease-in-out delay-150 hover:scale-110 hover:bg-blue-500 duration-500`}> 
+    <div data-aos="fade-right" className={`flex flex-wrap: wrap rounded-[5px] sm:p-10 p-2 feature-card transition ease-in-out delay-150 hover:scale-110 hover:bg-blue-500 duration-500`}>
         <div className='flex flex-row mt-[10px] h-[100%]'>
             <div className='flex flex-col feedback-card sm:w-[600px] max-w-[500px] sx:mx-0 mx-6'>
                 <h4 className='font-poppins font-semibold text-[18px] text-justify leading-[30px] mb-5'>
@@ -28,17 +31,21 @@ const PenyebabCard = ({ title, content, content2, content3, content4, i }) => (
 )
 
 const Penjelasan = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 5000,
+            easing: "ease-in-out-back",
+        });
+    }, []);
+
     return (
-        <section id='penjelasan' className="sm:py-16 py-6">
+        <section id='penjelasan'>
             <div className='flex flex-col'>
                 <div className='flex md:flex-row flex-col'>
-                    <div className="flex flex-col">
+                    <div className="flex flex-col" data-aos="fade-down">
                         <h2 className="font-poppins font-semibold xs:text-[56px] text-[40px] text-black w-full tracking-widest">
                             Stunting
-                            {/* <br className='sm:block hidden ' />
-                                Stunting disebabkan oleh faktor yang multidimensi, diantaranya: */}
                         </h2>
-
                         <p className="font-poppins font-normal text-black text-[18px] mt-5 text-black w-full text-justify md:px-12 px-0">
                             Atau biasa disebut kerdil atau pendek adalah kondisi gagal tumbuh oada anak berusia di bawah lima tahun (balita) akibat kekurangan gizi kronis
                             dan infeksi berulang terutama pada periode 1.000 Hari Pertama Kehidupan (HPK), yaitu dari janin hingga anak berusia 23 bulan.
@@ -55,10 +62,10 @@ const Penjelasan = () => {
                         ))}
                     </div>
                 </div>
-                
+
             </div>
         </section>
-    )
-}
+    );
+};
 
 export default Penjelasan

@@ -27,7 +27,7 @@ const Sanitasi_data = ({ content, img }) => (
 
 const Sanitasi = () => {
     return (
-        <div className='font-poppins text-black'>
+        <div id='sanitasi' className='font-poppins text-black'>
             <h1 className={`${styles.heading2} text-center`}>
                 5 Pilar sanitasi total berbasis lingkungan
             </h1>

@@ -41,6 +41,12 @@ import hands from "./hands.svg";
 import toilet from "./toilet.svg";
 import recycle from "./recycle.svg";
 import water from "./water.svg";
+import wavesNegatives from "./wavesNegative.svg";
+import wavesOpacity from "./wavesOpacity.svg";
+import wavesOpacityBottom from "./wavesOpacityBottom.svg";
+import wavesCegah from "./waves-cegah-bg.svg";
+import wavesAsupan from "./asupan-curve-bg.svg";
+import wavesAsupanBottom from "./asupan-curve-bg-bottom.svg";
 
 export {
   airbnb,
@@ -85,5 +91,11 @@ export {
   hands,
   toilet,
   recycle,
-  water
+  water,
+  wavesNegatives,
+  wavesOpacity,
+  wavesOpacityBottom,
+  wavesCegah,
+  wavesAsupan,
+  wavesAsupanBottom,
 };

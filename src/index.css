@@ -21,8 +21,8 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #fd5b5b 0.89%,
-    #3f69f2 17.23%,
+    #f0bdbd 0.89%,
+    #94aaf3 17.23%,
     #c06065 42.04%,
     #911367 55.12%,
     #df2d3e 71.54%,
@@ -31,7 +31,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -46,12 +45,12 @@
   );
 }
 
-.bg-black-gradient {
+.bg-blue-gradient {
   background: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #6366f1 -278.56%,
+    #8b8dfc -78.47%,
+    #3d3fa5 91.61%
   );
 }
 
@@ -191,4 +190,25 @@
 
 .right-img {
   margin-right: 0;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+}
+
+.wave .shape-fill {
+  fill: #EFF6FF80;
 }

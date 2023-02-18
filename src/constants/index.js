@@ -31,7 +31,7 @@ import {
 export const navLinks = [
     {
         id: "home",
-        title: "Home",
+        title: "Tentang Kami",
     },
     {
         id: "penjelasan",
@@ -42,8 +42,20 @@ export const navLinks = [
         title: "Ciri-Ciri",
     },
     {
-        id: "nav4",
-        title: "nav4",
+        id: "table-normal",
+        title: "Nilai Normal",
+    },
+    {
+        id: "dampak",
+        title: "Dampak",
+    },
+    {
+        id: "asupan",
+        title: "Asupan",
+    },
+    {
+        id: "sanitasi",
+        title: "Sanitasi",
     },
 ];
 
