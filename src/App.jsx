@@ -10,13 +10,6 @@ const App = () => (
     </div>
     <img src={sampul_web} alt="" />
 
-    <div className={`${styles.flexStart}`}>
-      <div className="w-full">
-        <Hero />
-        <img src={wavesNegatives} alt="waves" className='rotate-180' />
-      </div>
-    </div>
-
     <div className="w-full sm:pl-16 px-16 my-10">
       <Penjelasan />
       <Ciri />
@@ -26,10 +19,12 @@ const App = () => (
       <div className="w-full">
         <img src={wavesOpacity} alt="waves" className='rotate-180' />
         <Table />
+        <h1 className='bg-red-100 text-gray-500 text-[22px] font-poppins text-center font-bold tracking-widest'>Sumber : Kementrian Kesehatan</h1>
         <img src={wavesOpacity} alt="waves" />
       </div>
+      <h1></h1>
     </div>
-
+    
     <div className={`${styles.paddingX} w-full mt-10`}>
       <Dampak />
     </div>
@@ -52,6 +47,14 @@ const App = () => (
 
     <div className={`${styles.paddingX} py-10 w-full`}>
       <Sanitasi />
+    </div>
+
+    <div className={`${styles.flexStart}`}>
+      <div className="w-full">
+      <img src={wavesAsupanBottom} alt="waves" className='' />
+        <Hero />
+        
+      </div>
     </div>
 
   </div>

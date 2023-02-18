@@ -35,9 +35,16 @@ const Hero = () => {
                     kewaspadaan dalam mencegah stunting pada balita.
                 </p>
 
-                <a href='https://wa.me/+6289512969942'>
-                    <Button styles='mt-5' />
+                <p className='mt-10'>Klik tombol dibawah untuk Konsultasi</p>
+                <div className='flex flex-row mt-5'>
+                    <a href='https://wa.me/+6285719383938'>
+                        <Button styles='' />
+                    </a>
+
+                    <a href='https://wa.me/+6285719383938'>
+                    <Button styles='ml-5' />
                 </a>
+                </div>
             </div>
 
             <div data-aos='fade-left'>

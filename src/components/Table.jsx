@@ -41,10 +41,10 @@ const FirstTable = () => {
 
     return (
         <div>
-            <h1 className="text-center my-5 font-poppins font-bold uppercase">Standar Panjang Badan Menurut Umur (PB/U) Anak Laki-Laki Umur 0 – 24 Bulan</h1>
+            <h1 className="text-center my-5 font-poppins font-bold uppercase text-[24px]">Standar Panjang Badan Menurut Umur (PB/U) Anak Laki-Laki Umur 0 – 24 Bulan</h1>
             <div className="flex flex-col overflow-y-always mb-2 max-h-[300px]">
-                <p className="mb-2 text-gray-600 text-[12px] font-poppins">Keterangan: * Pengukuran panjang badan dilakukan dalam keadaan anak telentang.</p>
-                <button onClick={toggleTable} className="mb-5 bg-blue-300 rounded-[5px] font-poppins font-medium">{showTable ? "Hide" : "Show"} Table</button>
+                <p className="mb-2 text-gray-600 text-[18px] font-poppins">Keterangan: * Pengukuran panjang badan dilakukan dalam keadaan anak telentang.</p>
+                <button onClick={toggleTable} className="mb-5 bg-blue-300 rounded-[5px] font-poppins font-medium">Klik ini untuk {showTable ? "Sembunyikan" : "Tampilkan"} Tabel</button>
                 <div className="my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                         <div className="shadow border-b border-gray-200 sm:rounded-lg ">
@@ -189,10 +189,10 @@ const SecondTable = () => {
 
     return (
         <div>
-            <h1 className="text-center my-5 font-poppins font-bold uppercase">Standar Tinggi Badan Menurut Umur (TB/U) Anak Laki-Laki Umur 24 – 60 Bulan</h1>
+            <h1 className="text-center my-5 font-poppins font-bold uppercase text-[24px]">Standar Tinggi Badan Menurut Umur (TB/U) Anak Laki-Laki Umur 24 – 60 Bulan</h1>
             <div className="flex flex-col  mb-2 max-h-[400px]">
-                <p className="mb-2 text-gray-600 text-[12px] font-poppins">Keterangan: * Pengukuran TB dilakukan dalam keadaan anak berdiri.</p>
-                <button onClick={toggleTable} className="mb-5 bg-blue-300 rounded-[5px] font-poppins font-medium">{showTable ? "Hide" : "Show"} Table</button>
+                <p className="mb-2 text-gray-600 text-[18px] font-poppins">Keterangan: * Pengukuran TB dilakukan dalam keadaan anak berdiri.</p>
+                <button onClick={toggleTable} className="mb-5 bg-blue-300 rounded-[5px] font-poppins font-medium">Klik ini untuk {showTable ? "Sembunyikan" : "Tampilkan"} Tabel</button>
                 <div className="my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                         <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
@@ -338,10 +338,10 @@ const ThirdTable = () => {
 
     return (
         <div>
-            <h1 className="text-center my-5 font-poppins font-bold uppercase">Standar Panjang Badan Menurut Umur (PB/U) Anak Perempuan Umur 0 – 24 Bulan</h1>
+            <h1 className="text-center my-5 font-poppins font-bold uppercase text-[24px]">Standar Panjang Badan Menurut Umur (PB/U) Anak Perempuan Umur 0 – 24 Bulan</h1>
             <div className="flex flex-col  mb-2 max-h-[400px]">
-                <p className="mb-2 text-gray-600 text-[12px] font-poppins">Keterangan: * Pengukuran PB dilakukan dalam keadaan anak telentang.</p>
-                <button onClick={toggleTable} className="mb-5 bg-blue-300 rounded-[5px] font-poppins font-medium">{showTable ? "Hide" : "Show"} Table</button>
+                <p className="mb-2 text-gray-600 text-[18px] font-poppins">Keterangan: * Pengukuran PB dilakukan dalam keadaan anak telentang.</p>
+                <button onClick={toggleTable} className="mb-5 bg-blue-300 rounded-[5px] font-poppins font-medium">Klik ini untuk {showTable ? "Sembunyikan" : "Tampilkan"} Tabel</button>
                 <div className="my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                         <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
@@ -487,10 +487,10 @@ const FourthTable = () => {
 
     return (
         <div>
-            <h1 className="text-center my-5 font-poppins font-bold uppercase">Standar Tinggi Badan Menurut Umur (TB/U) Anak Perempuan Umur 24 – 60 Bulan</h1>
+            <h1 className="text-center my-5 font-poppins font-bold uppercase text-[24px]">Standar Tinggi Badan Menurut Umur (TB/U) Anak Perempuan Umur 24 – 60 Bulan</h1>
             <div className="flex flex-col  mb-2 max-h-[400px]">
-                <p className="mb-2 text-gray-600 text-[12px] font-poppins">Keterangan: * Pengukuran TB dilakukan dalam keadaan anak berdiri.</p>
-                <button onClick={toggleTable} className="mb-5 bg-blue-300 rounded-[5px] font-poppins font-medium">{showTable ? "Hide" : "Show"} Table</button>
+                <p className="mb-2 text-gray-600 text-[18px] font-poppins">Keterangan: * Pengukuran TB dilakukan dalam keadaan anak berdiri.</p>
+                <button onClick={toggleTable} className="mb-5 bg-blue-300 rounded-[5px] font-poppins font-medium">Klik ini untuk {showTable ? "Sembunyikan" : "Tampilkan"} Tabel</button>
                 <div className="my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                         <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">

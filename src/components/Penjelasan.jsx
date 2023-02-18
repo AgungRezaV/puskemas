@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { features } from '../constants';
-import styles, { layout } from '../style';
+import { layout } from '../style';
 import { doctor, sampul_web } from '../assets';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -44,13 +44,15 @@ const Penjelasan = () => {
                 <div className='flex md:flex-row flex-col'>
                     <div className="flex flex-col" data-aos="fade-down">
                         <h2 className="font-poppins font-semibold xs:text-[56px] text-[40px] text-black w-full tracking-widest">
-                            Stunting
+                            Apa itu Stunting ?
                         </h2>
                         <p className="font-poppins font-normal text-black text-[18px] mt-5 text-black w-full text-justify md:px-12 px-0">
                             Atau biasa disebut kerdil atau pendek adalah kondisi gagal tumbuh oada anak berusia di bawah lima tahun (balita) akibat kekurangan gizi kronis
                             dan infeksi berulang terutama pada periode 1.000 Hari Pertama Kehidupan (HPK), yaitu dari janin hingga anak berusia 23 bulan.
                             Anak tergolong stunting apabila panjang atau tinggi badannya berada di bawah minus dua (-2) standar deviasi panjang atau tinggi badan anak seumurnya.
                         </p>
+
+                        <h1 className="text-center text-[50px] font-bold mt-5">Penyebab Stunting</h1>
                     </div>
                     {/* <img src={sampul_web} alt="sampul web" className='w-full md:mt-0 mt-6' /> */}
                 </div>
