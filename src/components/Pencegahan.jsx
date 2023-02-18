@@ -43,7 +43,7 @@ const PenyebabCard = ({ title, content, content2, content3, content4, content5, 
 
 const Pencegahan = () => {
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col text-white'>
             <h1 className='text-center text-[48px] tracking-wide font-bold my-10'>Pencegahan stunting</h1>
             <p className=''>Pencegahan stunting dilakukan secara spesifik dan sensitif. Pencegahan spesifik ditujukan kepada ibu hamil
                 dan anak dalam 1.000 hari pertama kehidupan oleh sektor kesehatan dalam jangka waktu relatif pendek. Sementara pencegahan
@@ -55,8 +55,8 @@ const Pencegahan = () => {
                 <h4>Pencegahan Spesifik Terhadap Stunting :</h4>
             </div>
 
-            <div className='mt-10 content-align'>
-                <div className={`${layout.sectionImg} flex-wrap justify-around`}>
+            <div className='mt-10 mb-10 content-align'>
+                <div className={`${layout.sectionImg} flex-wrap justify-evenly`}>
                     {features_two.map((feature, i) => (
                         <PenyebabCard key={feature.id} {...feature} index={i} />
                     ))}

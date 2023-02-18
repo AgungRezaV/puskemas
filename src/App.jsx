@@ -1,5 +1,5 @@
 import styles from './style';
-import { Navbar, Hero, Penjelasan, Ciri, Table, Dampak, Pencegahan, Sensitif } from './components';
+import { Navbar, Hero, Penjelasan, Ciri, Table, Dampak, Pencegahan, Sensitif, Asupan } from './components';
 
 const App = () => (
   <div className='bg-gray-100 w-full overflow-hidden navbar '>
@@ -35,7 +35,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-blue-50 ${styles.paddingX}`}>
+    <div className={` bg-gradient-to-r from-cyan-500 to-blue-500 ${styles.paddingX}`}>
       <div className="w-full">
         <Pencegahan />
       </div>
@@ -44,6 +44,12 @@ const App = () => (
     <div className=''>
       <div className="w-full sm:pl-16 px-16">
         <Sensitif />
+      </div>
+    </div>
+
+    <div className=''>
+      <div className="w-full">
+        <Asupan />
       </div>
     </div>
 

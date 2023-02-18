@@ -31,20 +31,20 @@ const Penjelasan = () => {
         <section id='penjelasan' className="sm:py-16 py-6">
             <div className='flex flex-col'>
                 <div className='flex md:flex-row flex-col'>
-                    <div className='flex flex-col'>
+                    <div className="flex flex-col">
                         <h2 className="font-poppins font-semibold xs:text-[56px] text-[40px] text-black w-full tracking-widest">
                             Stunting
                             {/* <br className='sm:block hidden ' />
                                 Stunting disebabkan oleh faktor yang multidimensi, diantaranya: */}
                         </h2>
 
-                        <p className="font-poppins font-normal text-black text-[18px] mt-5 text-black md:max-w-[700px] w-full text-justify md:px-12 px-0">
+                        <p className="font-poppins font-normal text-black text-[18px] mt-5 text-black w-full text-justify md:px-12 px-0">
                             Atau biasa disebut kerdil atau pendek adalah kondisi gagal tumbuh oada anak berusia di bawah lima tahun (balita) akibat kekurangan gizi kronis
                             dan infeksi berulang terutama pada periode 1.000 Hari Pertama Kehidupan (HPK), yaitu dari janin hingga anak berusia 23 bulan.
                             Anak tergolong stunting apabila panjang atau tinggi badannya berada di bawah minus dua (-2) standar deviasi panjang atau tinggi badan anak seumurnya.
                         </p>
                     </div>
-                    <img src={sampul_web} alt="sampul web" className='w-full md:mt-0 mt-6' />
+                    {/* <img src={sampul_web} alt="sampul web" className='w-full md:mt-0 mt-6' /> */}
                 </div>
 
                 <div className='mt-10 content-align'>
