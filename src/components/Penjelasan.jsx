@@ -3,7 +3,8 @@ import styles, { layout } from '../style';
 import { doctor, sampul_web } from '../assets';
 
 const PenyebabCard = ({ title, content, content2, content3, content4, i }) => (
-    <div className={`flex flex-wrap: wrap rounded-[5px] sm:p-10 p-2 ${i !== features.length - 1 ? 'mb-6' : 'mb-0'} feature-card transition ease-in-out delay-150 hover:scale-110 hover:bg-blue-500 duration-500 ... `}>
+    // ${i !== features.length - 1 ? 'mb-6' : 'mb-0'}
+    <div className={`flex flex-wrap: wrap rounded-[5px] sm:p-10 p-2 feature-card transition ease-in-out delay-150 hover:scale-110 hover:bg-blue-500 duration-500`}> 
         <div className='flex flex-row mt-[10px] h-[100%]'>
             <div className='flex flex-col feedback-card sm:w-[600px] max-w-[500px] sx:mx-0 mx-6'>
                 <h4 className='font-poppins font-semibold text-[18px] text-justify leading-[30px] mb-5'>

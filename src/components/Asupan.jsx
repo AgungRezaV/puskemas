@@ -19,7 +19,7 @@ const Asupan = () => {
             <div className='bg-blue-100 sm:px-32 px-8'>
                 
                 <h2 className='xs:text-left text-center font-semibold text-[36px] leading-[48px] pt-5'>Bagi ibu hamil : </h2>
-                <div className='text-justify md:px-0 px-0 md:py-5 py-0 md:px-10 px-0'>
+                <div className='text-justify md:py-5 py-0 md:px-10 px-5'>
                     <ul className='list-decimal'>
                         {deskripsi_nutrisi_ibu.map((card) => (
                             <li key={card.id}>
@@ -30,7 +30,7 @@ const Asupan = () => {
                 </div>
 
                 <h2 className='xs:text-left text-center font-semibold text-[36px] leading-[48px]'>Bagi bayi: </h2>
-                <div className='text-justify md:px-0 px-0 md:py-5 py-0 md:px-10 px-0'>
+                <div className='text-justify py-5 md:px-10 px-5'>
                     <ul className='list-decimal'>
                         {deskripsi_nutrisi_bayi.map((card) => (
                             <li key={card.id}>

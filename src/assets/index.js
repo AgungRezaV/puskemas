@@ -36,6 +36,11 @@ import doctor_exam from "./doctor-examination.jpg";
 import sampul_web from "./sampul_web.png";
 import dampak_stunting from "./dampak_stunting.jpeg";
 import cegah_stunting from "./cegah_stunting.jpeg";
+import drumstick from "./drumstick.svg";
+import hands from "./hands.svg";
+import toilet from "./toilet.svg";
+import recycle from "./recycle.svg";
+import water from "./water.svg";
 
 export {
   airbnb,
@@ -76,4 +81,9 @@ export {
   sampul_web,
   dampak_stunting,
   cegah_stunting,
+  drumstick,
+  hands,
+  toilet,
+  recycle,
+  water
 };

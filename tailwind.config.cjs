@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      backgroundImage: {
+        'sampul-web': "url('/assets/sampul_web.png')",
+      },
       colors: {
         primary: "#E6FCF5",
         secondary: "#00f6ff",

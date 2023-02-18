@@ -120,6 +120,16 @@
   color: whitesmoke;
 }
 
+.pencegahan-card {
+  color: black;
+}
+
+.pencegahan-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+  color: rgb(255, 255, 255);
+}
+
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;
 }

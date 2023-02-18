@@ -21,6 +21,11 @@ import {
     send,
     shield,
     star,
+    drumstick,
+    hands,
+    toilet,
+    recycle,
+    water,
 } from "../assets";
 
 export const navLinks = [
@@ -447,5 +452,37 @@ export const deskripsi_nutrisi_bayi = [
     {
         id: "bayi-4",
         content:"Selanjutnya untuk bayi usia 12 – 24 bulan sebanyak 3 – 4 kali makanan keluarga ditambah 1 – 2 kali makanan selingan plus ASI. Jumlah setiap kali makan sebanyak ¾ mangkuk ukuran 250 ml.",
+    },
+];
+
+export const sanitasi = [
+    {
+        id: "sanitasi-1",
+        img: drumstick,
+        content: "Pengelolaan air minum dan makanan rumah tangga",
+    },
+
+    {
+        id: "sanitasi-2",
+        img: hands,
+        content: "Cuci tangan menggunakan sabun",
+    },
+
+    {
+        id: "sanitasi-3",
+        img:toilet,
+        content: "Berhenti buang air sembarangan",
+    },
+
+    {
+        id: "sanitasi-4",
+        img: recycle,
+        content: "Pengelolaan sampah rumah tangga",
+    },
+
+    {
+        id: "sanitasi-5",
+        img: water,
+        content: "Pengelolaan limbah cair rumah tangga ",
     },
 ];

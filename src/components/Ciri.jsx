@@ -10,7 +10,7 @@ const Ciri = () => (
                 <span className='font-bold bg-blue-100 rounded-[20px] leading-[50px]'>Stunting</span> {" "}
                 <br className="sm:block hidden" />pada anak</h1>
             <div className="w-full md:mt-0 mt-6 ml-0">
-                <img src={doctor_exam} alt="dctr" />
+                <img src={doctor_exam} alt="doctor" />
             </div>
         </div>
 

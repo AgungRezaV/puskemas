@@ -7,6 +7,7 @@ import Dampak from "./Dampak";
 import Pencegahan from "./Pencegahan";
 import Sensitif from "./Sensitif";
 import Asupan from "./Asupan";
+import Sanitasi from "./Sanitasi";
 // import Billing from "./Billing";
 // import CardDeal from "./CardDeal";
 // import Business from "./Business";
@@ -27,6 +28,7 @@ export {
     Pencegahan,
     Sensitif,
     Asupan,
+    Sanitasi,
     // Billing,
     // CardDeal,
     // Business,
