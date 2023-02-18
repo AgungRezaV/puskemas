@@ -2,7 +2,6 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Penjelasan from "./Penjelasan";
 import Ciri from "./Ciri";
-import Nilai_normal from "./Nilai_normal";
 import Table from "./Table";
 import Dampak from "./Dampak";
 import Pencegahan from "./Pencegahan";
@@ -23,7 +22,6 @@ export {
     Hero,
     Penjelasan,
     Ciri,
-    Nilai_normal,
     Table,
     Dampak,
     Pencegahan,

@@ -15,7 +15,6 @@ const SensitifCard = ({ content, icon }) => (
         rounded-[10px] 
         justify-center '
     >
-
         {/* <img src={icon} alt="quotes" className="w-[42px] h-[42px] mt-5 center" /> */}
         <p className='font-poppins text-center font-normal text-[18px] text-black my-5 text-left'>{content}</p>
     </div>
