@@ -2,10 +2,13 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Penjelasan from "./Penjelasan";
 import Ciri from "./Ciri";
-import Nilai_normal from "./Nilai_normal";
 import Table from "./Table";
 import Dampak from "./Dampak";
 import Pencegahan from "./Pencegahan";
+import Sensitif from "./Sensitif";
+import Asupan from "./Asupan";
+import Sanitasi from "./Sanitasi";
+import Button from "./Button";
 // import Billing from "./Billing";
 // import CardDeal from "./CardDeal";
 // import Business from "./Business";
@@ -21,10 +24,13 @@ export {
     Hero,
     Penjelasan,
     Ciri,
-    Nilai_normal,
     Table,
     Dampak,
     Pencegahan,
+    Sensitif,
+    Asupan,
+    Sanitasi,
+    Button,
     // Billing,
     // CardDeal,
     // Business,
