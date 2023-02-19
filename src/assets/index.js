@@ -41,12 +41,18 @@ import hands from "./hands.svg";
 import toilet from "./toilet.svg";
 import recycle from "./recycle.svg";
 import water from "./water.svg";
+import cegah_stunting_2 from "./cegah-stunting-2.jpeg"
 import wavesNegatives from "./wavesNegative.svg";
 import wavesOpacity from "./wavesOpacity.svg";
 import wavesOpacityBottom from "./wavesOpacityBottom.svg";
 import wavesCegah from "./waves-cegah-bg.svg";
 import wavesAsupan from "./asupan-curve-bg.svg";
 import wavesAsupanBottom from "./asupan-curve-bg-bottom.svg";
+import cegahWavesHaikei from "./cegah-haikei.svg";
+import tentangWavesHaikeiTop from "./layered-waves-tentang-haikei-top.svg";
+import tentangWavesHaikei from "./layered-waves-tentang-haikei.svg";
+import pencegahanBg from "./pencegahan-bg.svg";
+import logoWeb from "./logo-web.png";
 
 export {
   airbnb,
@@ -98,4 +104,10 @@ export {
   wavesCegah,
   wavesAsupan,
   wavesAsupanBottom,
+  cegahWavesHaikei,
+  tentangWavesHaikeiTop,
+  tentangWavesHaikei,
+  pencegahanBg,
+  cegah_stunting_2,
+  logoWeb,
 };

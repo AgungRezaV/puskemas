@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { close, logo, menu } from '../assets';
+import { close, logoWeb, menu } from '../assets';
 import { navLinks } from '../constants';
 import { Link } from 'react-scroll';
 

@@ -9,12 +9,17 @@ import 'aos/dist/aos.css';
 
 const Ciri = () => {
     useEffect(() => {
-        AOS.init({ duration: 3000 });
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+            easing: 'ease-in-sine',
+            delay: 200,
+        });
     }, []);
     
     return (
         <section id="ciri-ciri" className={` ${styles.flexCenter} flex-col relative`}>
-            <div className=" w-full flex justify-between items-center md:flex-row flex-col sm:mb-6 mb-6 relative z-[1]" data-aos='fade-left'>
+            <div className=" w-full flex justify-between items-center md:flex-row flex-col sm:mb-6 mb-6 relative z-[1]" data-aos="fade-left">
                 <h1 className={styles.heading2}>Ciri-ciri {" "}
                     <span className='font-bold bg-blue-100 rounded-[20px] leading-[50px]'>Stunting</span> {" "}
                     <br className="sm:block hidden" />pada anak</h1>
@@ -23,7 +28,7 @@ const Ciri = () => {
                 </div>
             </div>
 
-            <div className="flex flex-wrap justify-evenly w-full feedback-container relative z-[1]" data-aos='fade-right'>
+            <div className="flex flex-wrap justify-evenly w-full feedback-container relative z-[1]" data-aos="fade-right">
                 {ciri_card.map((card) => (
                     <FeedbackCard key={card.id} {...card} />
                 ))}

@@ -593,7 +593,7 @@ const Table = () => {
     }, []);
 
     return (
-        <div id='table-normal' className={`${styles.paddingX} bg-red-100 py-6`} data-aos='fade-right'>
+        <div id='table-normal' className={`${styles.paddingX} bg-red-100 py-6`}>
             <FirstTable />
             <SecondTable />
             <ThirdTable />

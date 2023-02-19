@@ -30,10 +30,6 @@ import {
 
 export const navLinks = [
     {
-        id: "home",
-        title: "Tentang Kami",
-    },
-    {
         id: "penjelasan",
         title: "Stunting",
     },
@@ -56,6 +52,10 @@ export const navLinks = [
     {
         id: "sanitasi",
         title: "Sanitasi",
+    },
+    {
+        id: "tentang-kami",
+        title: "Tentang Kami",
     },
 ];
 
@@ -108,6 +108,20 @@ export const features_two = [
     {
         id: "feature-1",
         icon: star,
+        title: "Sasaran Ibu Menyusui dan Anak Usia 0-6 Bulan",
+        content:
+            "Mendorong inisiasi menyusui dini (pemberian ASI jolong/colostrum).",
+        content2:
+            "Mendorong pemberian ASI Eksklusif.",
+        content3:
+            "Melakukan pemantauan pertumbuhan dan kesehatan anak di Posyandu atau Puskesmas.",
+        content4:
+            "Hindari asap rokok dan asap kendaraan.",
+
+    },
+    {
+        id: "feature-2",
+        icon: star,
         title: "Sasaran Pranikah",
         content:
             "1. Pencegahan pernikahan dini dan kehamilan pada remaja puteri.",
@@ -115,47 +129,53 @@ export const features_two = [
             "2.	Pemberian tablet tambah darah pada remaja puteri. ",
         content3:
             "3.	Konseling pranikah.",
-    },
-    {
-        id: "feature-2",
-        icon: star,
-        title: "Sasaran Ibu Hamil",
-        content:
-            "• Pemberian layanan antenatal sesuai dengan standar, termasuk mengatasi penyakit kronis pada ibu, pemberian makanan tambahan pada ibu hamil KEK, pemberian Buku KIA, edukasi tentang inisiasi menyusu dini (IMD) dan promosi ASI eksklusif.",
-        content2:
-            "• Melakukan persalinan dengan dokter atau bidan yang ahli.",
-        content3:
-            "• Memberikan makanan tambahan pada ibu hamil untuk mengatasi kekurangan energi dan protein kronis.",
-        content4:
-            "4.	Memberikan tablet tambah darah minimal 90 tablet selama kehamilan.",
-        content5:
-            "5.	Mengatasi kekurangan zat besi dan asam folat.",
-        content6:
-            "6.	Mengatasi kekurangan iodium.",
-        content7:
-            "7.	Menanggulangi kecacingan pada ibu hamil.",
-        content8:
-            "8.	Melindungi ibu hamil dari Malaria.",
-        content9:
-            "9.	Hindari asap rokok dan asap kendaraan.",
+
     },
     {
         id: "feature-3",
         icon: star,
-        title: "Sasaran Ibu Menyusui dan Anak Usia 0-6 Bulan",
+        title: "Sasaran Ibu Menyusui dan Anak Usia 7-23 bulan",
         content:
-            "• 1 dari 3 ibu hamil anemia.",
+            "Mendorong penerusan pemberian ASI hingga usia 23 bulan didampingi oleh pemberian MP-ASI.",
         content2:
-            "• Makanan bergizi mahal.",
+            "Melakukan pemantauan pertumbuhan dan kesehatan anak di Posyandu atau Puskesmas.",
+        content3:
+            "Menyediakan obat cacing.",
+        content4:
+            "Menyediakan suplementasi zink.",
+        content5:
+            "Melakukan fortifikasi zat besi ke dalam makanan.",
+        content6:
+            "Memberikan perlindungan terhadap malaria.",
+        content7:
+            "Memberikan vitamin A dan imunisasi lengkap.",
+        content8:
+            "Melakukan pencegahan dan pengobatan diare.",
+        content9:
+            "Hindari asap rokok dan asap kendaraan.",
     },
     {
         id: "feature-4",
         icon: star,
-        title: "Sasaran Ibu Menyusui dan Anak Usia 7-23 bulan",
+        title: "Sasaran Ibu Hamil",
         content:
-            "• 1 dari 5 rumah tangga masih BAB diruang terbuka.",
+            "Pemberian layanan antenatal sesuai dengan standar, termasuk mengatasi penyakit kronis pada ibu, pemberian makanan tambahan pada ibu hamil KEK, pemberian Buku KIA, edukasi tentang inisiasi menyusu dini (IMD) dan promosi ASI eksklusif.",
         content2:
-            "• 1 dari 3 rumah tangga belum memiliki akses ke air minum bersih.",
+            "Melakukan persalinan dengan dokter atau bidan yang ahli.",
+        content3:
+            "Memberikan makanan tambahan pada ibu hamil untuk mengatasi kekurangan energi dan protein kronis.",
+        content4:
+            "Memberikan tablet tambah darah minimal 90 tablet selama kehamilan.",
+        content5:
+            "Mengatasi kekurangan zat besi dan asam folat.",
+        content6:
+            "Mengatasi kekurangan iodium.",
+        content7:
+            "Menanggulangi kecacingan pada ibu hamil.",
+        content8:
+            "Melindungi ibu hamil dari Malaria.",
+        content9:
+            "Hindari asap rokok dan asap kendaraan.",
     },
 ];
 
@@ -416,54 +436,54 @@ export const clients = [
 export const deskripsi_nutrisi_ibu = [
     {
         id: "ibu-1",
-        content:"pada makan pagi terdiri dari makanan pokok 1 porsi, lauk hewani 1/2 porsi, lauk nabati 1/2 porsi, sayur 1 porsi, buah 1 porsi, gula 1 porsi, lemak 1 porsi, dan air putih atau air mineral 2 porsi. Kemudian makanan selingan pagi yaitu makanan pokok 1/2 porsi, buah 1 porsi, dan air minum 1 porsi.",
+        content: "pada makan pagi terdiri dari makanan pokok 1 porsi, lauk hewani 1/2 porsi, lauk nabati 1/2 porsi, sayur 1 porsi, buah 1 porsi, gula 1 porsi, lemak 1 porsi, dan air putih atau air mineral 2 porsi. Kemudian makanan selingan pagi yaitu makanan pokok 1/2 porsi, buah 1 porsi, dan air minum 1 porsi.",
     },
     {
         id: "ibu-2",
-        content:"Untuk makan siang terdiri dari makanan pokok 1 porsi, lauk hewani 1/2 porsi, lauk nabati 1/2 porsi, sayur 2 porsi, buah 1 porsi, lemak 2 porsi, dan air putih 2 porsi. Untuk makanan selingan siang terdiri dari makanan pokok ½ porsi, gula 1 porsi, air putih 1 porsi.",
+        content: "Untuk makan siang terdiri dari makanan pokok 1 porsi, lauk hewani 1/2 porsi, lauk nabati 1/2 porsi, sayur 2 porsi, buah 1 porsi, lemak 2 porsi, dan air putih 2 porsi. Untuk makanan selingan siang terdiri dari makanan pokok ½ porsi, gula 1 porsi, air putih 1 porsi.",
     },
     {
         id: "ibu-3",
-        content:" Selanjutnya untuk makan malam terdiri dari makanan pokok 1 porsi, lauk hewani 1/2 porsi, lauk nabati 1/2 porsi, sayur 1 porsi, buah 1 porsi, lemak 1 porsi, susu 1 porsi, air minum 2 porsi.",
+        content: " Selanjutnya untuk makan malam terdiri dari makanan pokok 1 porsi, lauk hewani 1/2 porsi, lauk nabati 1/2 porsi, sayur 1 porsi, buah 1 porsi, lemak 1 porsi, susu 1 porsi, air minum 2 porsi.",
     },
     {
         id: "ibu-4",
-        content:"1 porsi makanan pokok seperti nasi sebanyak 100 gr atau 1 piring sedang dan dapat diganti dengan ubi jalar kuning 1 buah ukuran sedang atau 135 gr.",
+        content: "1 porsi makanan pokok seperti nasi sebanyak 100 gr atau 1 piring sedang dan dapat diganti dengan ubi jalar kuning 1 buah ukuran sedang atau 135 gr.",
     },
     {
         id: "ibu-5",
-        content:"Lauk hewani merupakan 1 porsi ikan pepes 45 gr atau 1 potong ukuran sedang. Lauk hewani bisa diganti dengan daging ayam 1 potong ukuran sedang 40 gr.",
+        content: "Lauk hewani merupakan 1 porsi ikan pepes 45 gr atau 1 potong ukuran sedang. Lauk hewani bisa diganti dengan daging ayam 1 potong ukuran sedang 40 gr.",
     },
     {
         id: "ibu-6",
-        content:" Lauk nabati bisa dengan 1 porsi tempe goreng 50 gr atau 1 potong ukuran sedang. Lauk nabati dapat diganti dengan tahu 2 potong ukuran sedang 100 gr.",
+        content: " Lauk nabati bisa dengan 1 porsi tempe goreng 50 gr atau 1 potong ukuran sedang. Lauk nabati dapat diganti dengan tahu 2 potong ukuran sedang 100 gr.",
     },
     {
         id: "ibu-7",
-        content:"Untuk sayuran bisa dengan 1 porsi sayur bayam 100 gr sebanyak 1 mangkok kecil atau dapat diganti dengan kacang panjang 1 gelas sayuran 100 gr.",
+        content: "Untuk sayuran bisa dengan 1 porsi sayur bayam 100 gr sebanyak 1 mangkok kecil atau dapat diganti dengan kacang panjang 1 gelas sayuran 100 gr.",
     },
     {
         id: "ibu-8",
-        content:"Kebutuhan buah bisa dengan 1 porsi pisang ambon 50 gr atau 1 buah pisang ukuran sedang, dapat diganti dengan jeruk manis 1 buah ukuran sedang sebanyak 100 gr. Selanjutnya untuk minuman terdiri dari 1 porsi susu atau air putih satu gelas 250 ml.",
+        content: "Kebutuhan buah bisa dengan 1 porsi pisang ambon 50 gr atau 1 buah pisang ukuran sedang, dapat diganti dengan jeruk manis 1 buah ukuran sedang sebanyak 100 gr. Selanjutnya untuk minuman terdiri dari 1 porsi susu atau air putih satu gelas 250 ml.",
     },
 ];
 
 export const deskripsi_nutrisi_bayi = [
     {
         id: "bayi-1",
-        content:"Usia 0 – 24 bulan harus diberi ASI, bayi pada usia 6 – 9 bulan mulai diberi MP ASI berupa makanan lumat, pada usia 9 – 12 bulan diberi MPASI makanan lembek. Pada usia 12 – 24 bulan mulai diberi makanan keluarga.",
+        content: "Usia 0 – 24 bulan harus diberi ASI, bayi pada usia 6 – 9 bulan mulai diberi MP ASI berupa makanan lumat, pada usia 9 – 12 bulan diberi MPASI makanan lembek. Pada usia 12 – 24 bulan mulai diberi makanan keluarga.",
     },
     {
         id: "bayi-2",
-        content:" Frekuensi makan bagi bayi per hari usia 6 – 9 bulan sebanyak 2 – 3 kali makanan lumat + 1 – 2 kali makanan selingan ditambah ASI. Jumlah setiap kali makan terdiri dari 2 – 3 sendok makan penuh setiap kali makan dan tingkatkan secara perlahan sampai setengah dari cangkir mangkok ukuran 250 ml tiap kali makan.",
+        content: " Frekuensi makan bagi bayi per hari usia 6 – 9 bulan sebanyak 2 – 3 kali makanan lumat + 1 – 2 kali makanan selingan ditambah ASI. Jumlah setiap kali makan terdiri dari 2 – 3 sendok makan penuh setiap kali makan dan tingkatkan secara perlahan sampai setengah dari cangkir mangkok ukuran 250 ml tiap kali makan.",
     },
     {
         id: "bayi-3",
-        content:"Pada usia 9 – 12 bulan diberi 3 – 4 kali makanan lembek + setengah kali makanan selingan ditambah ASI. Porsi makanan sebanyak setengah mangkuk ukuran 250 ml.",
+        content: "Pada usia 9 – 12 bulan diberi 3 – 4 kali makanan lembek + setengah kali makanan selingan ditambah ASI. Porsi makanan sebanyak setengah mangkuk ukuran 250 ml.",
     },
     {
         id: "bayi-4",
-        content:"Selanjutnya untuk bayi usia 12 – 24 bulan sebanyak 3 – 4 kali makanan keluarga ditambah 1 – 2 kali makanan selingan plus ASI. Jumlah setiap kali makan sebanyak ¾ mangkuk ukuran 250 ml.",
+        content: "Selanjutnya untuk bayi usia 12 – 24 bulan sebanyak 3 – 4 kali makanan keluarga ditambah 1 – 2 kali makanan selingan plus ASI. Jumlah setiap kali makan sebanyak ¾ mangkuk ukuran 250 ml.",
     },
 ];
 
@@ -482,7 +502,7 @@ export const sanitasi = [
 
     {
         id: "sanitasi-3",
-        img:toilet,
+        img: toilet,
         content: "Berhenti buang air sembarangan",
     },
 
