@@ -10,7 +10,7 @@ const App = () => (
     </div>
     <img src={sampul_web} alt="" />
 
-    <div className="w-full sm:pl-16 px-16 my-10">
+    <div className="w-full">
       <Penjelasan />
       <Ciri />
     </div>

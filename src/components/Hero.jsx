@@ -19,9 +19,9 @@ const Hero = () => {
 
     return (
         <section id='tentang-kami' className={`flex md:flex-row flex-col relative bg-blue-50`}>
-            <div className={`flex-1 ${styles.flexStart} flex-col xl:px-16 px-12`} data-aos='fade-right'>
-                <div className='flex flex-col justify-between items-center w-full'>
-                    <h1 className='flex-1 font-poppins font-normal ss:text-[72px] text-[42px] ss:mt-0 mt-6'>
+            <div className={`flex-1 ${styles.flexStart} flex-col xl:px-16 px-12 font-poppins`} data-aos='fade-right'>
+                <div className='flex flex-col justify-between items-center'>
+                    <h1 className='flex-1 font-normal ss:text-[72px] text-[42px] ss:mt-0 mt-6'>
                         Web
                         <span className='text-blue-900 font-bold'> Stunting</span> {' '}
                     </h1>
@@ -41,7 +41,7 @@ const Hero = () => {
                 </p>
 
                 <p className='mt-10'>Klik tombol dibawah untuk Chat atau Konsultasi</p>
-                <div className='flex md:flex-row flex-col md:mt-0 mt-5'>
+                <div className='flex md:flex-row flex-col md:my-0 my-5'>
                     <a href='https://wa.me/+6285719383938'>
                         <Button styles='' />
                     </a>

@@ -20,9 +20,9 @@ const Dampak = () => {
             <h1 className='text-center xs:text-[72px] text-[56px] xs:tracking-widest tracking-wide font-semibold' data-aos='fade-down'>Dampak stunting</h1>
             <div className='flex md:flex-row flex-col mt-5' >
                 <div>
-                    <img src={dampak_stunting} alt="dampak_stunting" className={`center relative z-[5]`} data-aos='fade-down' />
+                    <img src={dampak_stunting} alt="dampak_stunting" className={` relative z-[5]`} data-aos='fade-down' />
                 </div>
-                <div className='flex flex-col gap-4 items-center w-full' data-aos='fade-left'>
+                <div className='flex flex-col gap-12 items-center w-full text-justify' data-aos='fade-left'>
                     <h4 className='text-center text-[24px]'>Dampak buruk yang dapat ditimbulkan oleh stunting :<br /></h4>
                     <p className={`${styles.paragraph}`}>Dampak jangka pendek adalah terganggunya perkembangan otak, kecerdasan, gangguan pertumbuhan fisik, dan gangguan metabolisme dalam tubuh.</p>
                     <p className={`${styles.paragraph}`}>Dampak jangka panjang yang dapat ditimbulkan adalah menurunnya kemampuan kognitif dan prestasi belajar, menurunnya kekebalan tubuh sehingga

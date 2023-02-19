@@ -18,13 +18,13 @@ const Ciri = () => {
     }, []);
     
     return (
-        <section id="ciri-ciri" className={` ${styles.flexCenter} flex-col relative`}>
-            <div className=" w-full flex justify-between items-center md:flex-row flex-col sm:mb-6 mb-6 relative z-[1]" data-aos="fade-left">
+        <section id="ciri-ciri" className={`${styles.flexCenter} flex-col relative mx-6`}>
+            <div className=" w-full flex justify-between items-center md:flex-row flex-col mb-6 relative z-[1]" data-aos="fade-left">
                 <h1 className={styles.heading2}>Ciri-ciri {" "}
                     <span className='font-bold bg-blue-100 rounded-[20px] leading-[50px]'>Stunting</span> {" "}
                     <br className="sm:block hidden" />pada anak</h1>
-                <div className="w-full md:mt-0 mt-6 ml-0">
-                    <img src={doctor_exam} alt="doctor" />
+                <div className="w-full md:mt-0 mt-6">
+                    <img src={doctor_exam} alt="doctor" className='rounded-[20px]'/>
                 </div>
             </div>
 

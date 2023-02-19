@@ -17,8 +17,8 @@ const Sensitif = () => {
             <div className=" w-full flex justify-between items-center md:flex-row flex-col sm:mb-6 mb-6 relative z-[1]">
                 <img src={cegah_stunting_2} alt="dctr" className="w-full md:mt-0 mt-6 ml-0  xs:min-w-[700px] min-w-[400px]" />
 
-                <div className="flex flex-col ml-10 mt-10">
-                    <h1 className={`${styles.heading2}`}>Pencegahan Sensitif Terhadap Stunting{" "}
+                <div className="flex flex-col mt-10">
+                    <h1 className={`${styles.heading2} `}>Pencegahan Sensitif Terhadap Stunting{" "}
                         {/* <span className='font-bold bg-blue-100 rounded-[20px] leading-[50px]'>Stunting</span> {" "}
                 <br className="sm:block hidden" />pada anak*/}
                     </h1>

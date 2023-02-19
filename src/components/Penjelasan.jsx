@@ -8,22 +8,22 @@ import 'aos/dist/aos.css';
 
 const PenyebabCard = ({ title, content, content2, content3, content4, i }) => (
     // ${i !== features.length - 1 ? 'mb-6' : 'mb-0'}
-    <div data-aos="fade-up" data-aos-delay="400" className={`flex flex-wrap: wrap rounded-[20px] md:mx-10 mx-5 feature-card transition ease-in-out delay-150 hover:scale-110 hover:bg-blue-500 duration-500`}>
+    <div data-aos="fade-up" data-aos-delay="400" className={`flex flex-wrap: wrap rounded-[20px] py-8 feature-card transition ease-in-out delay-150 hover:scale-110 hover:bg-blue-500 duration-500`}>
         <div className='flex flex-row'>
-            <div className='flex flex-col feedback-card m-6'>
+            <div className='flex flex-col feedback-card sx:mx-0 mx-6'>
                 <h4 className='font-poppins font-semibold md:text-justify text-center text-[18px] md:w-[600px] max-w-[500px] leading-[30px] mb-5'>
                     {title} <br />
                 </h4>
-                <p className='xs:ml-6 ml-0 font-poppins md:text-justify font-normal text-[14px] sx:max-w-[200px] max-w-[450px]  leading-[24px] mb-2'>
+                <p className='xs:ml-6 ml-0 font-poppins md:text-justify font-normal text-[14px] sx:max-w-[200px] max-w-[450px] leading-[24px] mb-2'>
                     {content} <br />
                 </p>
-                <p className='xs:ml-6 ml-0 font-poppins md:text-justify font-normal text-[14px] sx:max-w-[200px] max-w-[450px]  leading-[24px] mb-2'>
+                <p className='xs:ml-6 ml-0 font-poppins md:text-justify font-normal text-[14px] sx:max-w-[200px] max-w-[450px] leading-[24px] mb-2'>
                     {content2} <br />
                 </p>
-                <p className='xs:ml-6 ml-0 font-poppins md:text-justify font-normal text-[14px] sx:max-w-[200px] max-w-[450px]  leading-[24px] mb-2'>
+                <p className='xs:ml-6 ml-0 font-poppins md:text-justify font-normal text-[14px] sx:max-w-[200px] max-w-[450px] leading-[24px] mb-2'>
                     {content3} <br />
                 </p>
-                <p className='xs:ml-6 ml-0 font-poppins md:text-justify font-normal text-[14px] sx:max-w-[200px] max-w-[450px]  leading-[24px] mb-2'>
+                <p className='xs:ml-6 ml-0 font-poppins md:text-justify font-normal text-[14px] sx:max-w-[200px] max-w-[450px] leading-[24px] mb-2'>
                     {content4} <br />
                 </p>
             </div>
@@ -44,7 +44,7 @@ const Penjelasan = () => {
     return (
         <section id='penjelasan'>
             <div className='flex flex-col'>
-                <div className='flex flex-col' data-aos="fade-right">
+                <div className='flex flex-col px-8 my-10' data-aos="fade-right">
                         <h2 className="font-poppins font-semibold xs:text-[56px] text-[40px] text-black w-full tracking-widest">
                             Apa itu Stunting ?
                         </h2>
@@ -55,8 +55,8 @@ const Penjelasan = () => {
                         </p>
                 </div>
                 <h1 className="text-center text-[50px] font-bold mt-5" data-aos="fade-up">Penyebab Stunting</h1>
-                <div className='md:mt-10 mt-0 md:mb-10 mb-0 content-align'>
-                    <div className={`${layout.sectionImg} flex-wrap justify-evenly`}>
+                <div className='md:my-10 my-0'>
+                    <div className={`flex-wrap justify-evenly text-justify px-5 py-5`}>
                         {features.map((feature, i) => (
                             <PenyebabCard key={feature.id} {...feature} index={i} />
                         ))}

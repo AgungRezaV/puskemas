@@ -7,19 +7,6 @@ import {
     introvert,
     person_dress,
     bed_solid,
-    people01,
-    people02,
-    people03,
-    facebook,
-    instagram,
-    linkedin,
-    twitter,
-    airbnb,
-    binance,
-    coinbase,
-    dropbox,
-    send,
-    shield,
     star,
     drumstick,
     hands,
@@ -104,24 +91,22 @@ export const features = [
     },
 ];
 
-export const features_two = [
+export const pencegahan_content_data = [
     {
-        id: "feature-1",
-        icon: star,
+        id: "pencegahan-1",
         title: "Sasaran Ibu Menyusui dan Anak Usia 0-6 Bulan",
         content:
-            "Mendorong inisiasi menyusui dini (pemberian ASI jolong/colostrum).",
+            "1. Mendorong inisiasi menyusui dini (pemberian ASI jolong/colostrum).",
         content2:
-            "Mendorong pemberian ASI Eksklusif.",
+            "2. Mendorong pemberian ASI Eksklusif.",
         content3:
-            "Melakukan pemantauan pertumbuhan dan kesehatan anak di Posyandu atau Puskesmas.",
+            "3. Melakukan pemantauan pertumbuhan dan kesehatan anak di Posyandu atau Puskesmas.",
         content4:
-            "Hindari asap rokok dan asap kendaraan.",
+            "4. Hindari asap rokok dan asap kendaraan.",
 
     },
     {
-        id: "feature-2",
-        icon: star,
+        id: "pencegahan-2",
         title: "Sasaran Pranikah",
         content:
             "1. Pencegahan pernikahan dini dan kehamilan pada remaja puteri.",
@@ -132,50 +117,48 @@ export const features_two = [
 
     },
     {
-        id: "feature-3",
-        icon: star,
+        id: "pencegahan-3",
         title: "Sasaran Ibu Menyusui dan Anak Usia 7-23 bulan",
         content:
-            "Mendorong penerusan pemberian ASI hingga usia 23 bulan didampingi oleh pemberian MP-ASI.",
+            "1. Mendorong penerusan pemberian ASI hingga usia 23 bulan didampingi oleh pemberian MP-ASI.",
         content2:
-            "Melakukan pemantauan pertumbuhan dan kesehatan anak di Posyandu atau Puskesmas.",
+            "2. Melakukan pemantauan pertumbuhan dan kesehatan anak di Posyandu atau Puskesmas.",
         content3:
-            "Menyediakan obat cacing.",
+            "3. Menyediakan obat cacing.",
         content4:
-            "Menyediakan suplementasi zink.",
+            "4. Menyediakan suplementasi zink.",
         content5:
-            "Melakukan fortifikasi zat besi ke dalam makanan.",
+            "5. Melakukan fortifikasi zat besi ke dalam makanan.",
         content6:
-            "Memberikan perlindungan terhadap malaria.",
+            "6. Memberikan perlindungan terhadap malaria.",
         content7:
-            "Memberikan vitamin A dan imunisasi lengkap.",
+            "7. Memberikan vitamin A dan imunisasi lengkap.",
         content8:
-            "Melakukan pencegahan dan pengobatan diare.",
+            "8. Melakukan pencegahan dan pengobatan diare.",
         content9:
-            "Hindari asap rokok dan asap kendaraan.",
+            "9. Hindari asap rokok dan asap kendaraan.",
     },
     {
-        id: "feature-4",
-        icon: star,
+        id: "pencegahan-4",
         title: "Sasaran Ibu Hamil",
         content:
-            "Pemberian layanan antenatal sesuai dengan standar, termasuk mengatasi penyakit kronis pada ibu, pemberian makanan tambahan pada ibu hamil KEK, pemberian Buku KIA, edukasi tentang inisiasi menyusu dini (IMD) dan promosi ASI eksklusif.",
+            "1. Pemberian layanan antenatal sesuai dengan standar, termasuk mengatasi penyakit kronis pada ibu, pemberian makanan tambahan pada ibu hamil KEK, pemberian Buku KIA, edukasi tentang inisiasi menyusu dini (IMD) dan promosi ASI eksklusif.",
         content2:
-            "Melakukan persalinan dengan dokter atau bidan yang ahli.",
+            "2. Melakukan persalinan dengan dokter atau bidan yang ahli.",
         content3:
-            "Memberikan makanan tambahan pada ibu hamil untuk mengatasi kekurangan energi dan protein kronis.",
+            "3. Memberikan makanan tambahan pada ibu hamil untuk mengatasi kekurangan energi dan protein kronis.",
         content4:
-            "Memberikan tablet tambah darah minimal 90 tablet selama kehamilan.",
+            "4. Memberikan tablet tambah darah minimal 90 tablet selama kehamilan.",
         content5:
-            "Mengatasi kekurangan zat besi dan asam folat.",
+            "5. Mengatasi kekurangan zat besi dan asam folat.",
         content6:
-            "Mengatasi kekurangan iodium.",
+            "6. Mengatasi kekurangan iodium.",
         content7:
-            "Menanggulangi kecacingan pada ibu hamil.",
+            "7. Menanggulangi kecacingan pada ibu hamil.",
         content8:
-            "Melindungi ibu hamil dari Malaria.",
+            "8. Melindungi ibu hamil dari Malaria.",
         content9:
-            "Hindari asap rokok dan asap kendaraan.",
+            "9. Hindari asap rokok dan asap kendaraan.",
     },
 ];
 
@@ -183,51 +166,42 @@ export const ciri_card = [
     {
         id: "feedback-1",
         icon: height,
-        content:
-            "Pertumbuhan melambat.",
-
+        content:"Pertumbuhan melambat.",
     },
     {
         id: "feedback-2",
         icon: weight,
-        content:
-            "Berat badan lebih rendah dari anak seusianya dan cenderung menurun",
+        content:"Berat badan lebih rendah dari anak seusianya dan cenderung menurun",
     },
     {
         id: "feedback-3",
         icon: face_smile,
-        content:
-            "Wajah tampak lebih muda dari anak seusia nya.",
+        content:"Wajah tampak lebih muda dari anak seusia nya.",
     },
     {
         id: "feedback-4",
         icon: tooth,
-        content:
-            "Pertumbuhan gigi terlambat.",
+        content:"Pertumbuhan gigi terlambat.",
     },
     {
         id: "feedback-5",
         icon: head_memory,
-        content:
-            "Performa buruk pada tes perhatian dan memori belajar.",
+        content:"Performa buruk pada tes perhatian dan memori belajar.",
     },
     {
         id: "feedback-6",
         icon: introvert,
-        content:
-            "Usia 8 – 10 tahun anak menjadi lebih pendiam, tidak banyak melakukan kontak mata terhadap orang di sekitarnya.",
+        content:"Usia 8 – 10 tahun anak menjadi lebih pendiam, tidak banyak melakukan kontak mata terhadap orang di sekitarnya.",
     },
     {
         id: "feedback-7",
         icon: person_dress,
-        content:
-            "Perkembangan tubuh anak terhambat, seperti telat menarche (menstruasi pertama anak perempuan).",
+        content:"Perkembangan tubuh anak terhambat, seperti telat menarche (menstruasi pertama anak perempuan).",
     },
     {
         id: "feedback-8",
         icon: bed_solid,
-        content:
-            "Anak mudah terserang berbagai penyakit infeksi.",
+        content:"Anak mudah terserang berbagai penyakit infeksi.",
     },
 ];
 
@@ -235,201 +209,63 @@ export const sensitif_card = [
     {
         id: "sensitif-card-1",
         icon: height,
-        content:
-            "Menyediakan dan Memastikan Akses pada Air Bersih. ",
+        content:"Menyediakan dan Memastikan Akses pada Air Bersih. ",
 
     },
     {
         id: "sensitif-card-2",
         icon: weight,
-        content:
-            "Menyediakan dan Memastikan Akses pada Sanitasi.",
+        content:"Menyediakan dan Memastikan Akses pada Sanitasi.",
     },
     {
         id: "sensitif-card-3",
         icon: face_smile,
-        content:
-            "Melakukan Fortifikasi Bahan Pangan.",
+        content:"Melakukan Fortifikasi Bahan Pangan.",
     },
     {
         id: "sensitif-card-4",
         icon: tooth,
-        content:
-            "Menyediakan Akses kepada Layanan Kesehatan dan Keluarga Berencana (KB).",
+        content:"Menyediakan Akses kepada Layanan Kesehatan dan Keluarga Berencana (KB).",
     },
     {
         id: "sensitif-card-5",
         icon: head_memory,
-        content:
-            "Menyediakan Jaminan Kesehatan Nasional (JKN).",
+        content:"Menyediakan Jaminan Kesehatan Nasional (JKN).",
     },
     {
         id: "sensitif-card-6",
         icon: introvert,
-        content:
-            "Menyediakan Jaminan Persalinan Universal (Jampersal).",
+        content:"Menyediakan Jaminan Persalinan Universal (Jampersal).",
     },
     {
         id: "sensitif-card-7",
         icon: person_dress,
-        content:
-            "Memberikan Pendidikan Pengasuhan pada Orang tua.",
+        content:"Memberikan Pendidikan Pengasuhan pada Orang tua.",
     },
     {
         id: "sensitif-card-8",
         icon: bed_solid,
-        content:
-            "Memberikan Pendidikan Anak Usia Dini Universal.",
+        content:"Memberikan Pendidikan Anak Usia Dini Universal.",
     },
     {
         id: "sensitif-card-9",
         icon: bed_solid,
-        content:
-            "Memberikan Pendidikan Gizi Masyarakat.",
+        content:"Memberikan Pendidikan Gizi Masyarakat.",
     },
     {
         id: "sensitif-card-10",
         icon: bed_solid,
-        content:
-            "Memberikan Edukasi Kesehatan Seksual dan Reproduksi, serta Gizi pada Remaja.",
+        content:"Memberikan Edukasi Kesehatan Seksual dan Reproduksi, serta Gizi pada Remaja.",
     },
     {
         id: "sensitif-card-11",
         icon: bed_solid,
-        content:
-            "Menyediakan Bantuan dan Jaminan Sosial bagi Keluarga Miskin.",
+        content:"Menyediakan Bantuan dan Jaminan Sosial bagi Keluarga Miskin.",
     },
     {
         id: "sensitif-card-12",
         icon: bed_solid,
-        content:
-            "Meningkatkan Ketahanan Pangan dan Gizi.",
-    },
-];
-
-export const stats = [
-    {
-        id: "stats-1",
-        title: "User Active",
-        value: "3800+",
-    },
-    {
-        id: "stats-2",
-        title: "Trusted by Company",
-        value: "230+",
-    },
-    {
-        id: "stats-3",
-        title: "Transaction",
-        value: "$230M+",
-    },
-];
-
-export const footerLinks = [
-    {
-        title: "Useful Links",
-        links: [
-            {
-                name: "Content",
-                link: "https://www.hoobank.com/content/",
-            },
-            {
-                name: "How it Works",
-                link: "https://www.hoobank.com/how-it-works/",
-            },
-            {
-                name: "Create",
-                link: "https://www.hoobank.com/create/",
-            },
-            {
-                name: "Explore",
-                link: "https://www.hoobank.com/explore/",
-            },
-            {
-                name: "Terms & Services",
-                link: "https://www.hoobank.com/terms-and-services/",
-            },
-        ],
-    },
-    {
-        title: "Community",
-        links: [
-            {
-                name: "Help Center",
-                link: "https://www.hoobank.com/help-center/",
-            },
-            {
-                name: "Partners",
-                link: "https://www.hoobank.com/partners/",
-            },
-            {
-                name: "Suggestions",
-                link: "https://www.hoobank.com/suggestions/",
-            },
-            {
-                name: "Blog",
-                link: "https://www.hoobank.com/blog/",
-            },
-            {
-                name: "Newsletters",
-                link: "https://www.hoobank.com/newsletters/",
-            },
-        ],
-    },
-    {
-        title: "Partner",
-        links: [
-            {
-                name: "Our Partner",
-                link: "https://www.hoobank.com/our-partner/",
-            },
-            {
-                name: "Become a Partner",
-                link: "https://www.hoobank.com/become-a-partner/",
-            },
-        ],
-    },
-];
-
-export const socialMedia = [
-    {
-        id: "social-media-1",
-        icon: instagram,
-        link: "https://www.instagram.com/",
-    },
-    {
-        id: "social-media-2",
-        icon: facebook,
-        link: "https://www.facebook.com/",
-    },
-    {
-        id: "social-media-3",
-        icon: twitter,
-        link: "https://www.twitter.com/",
-    },
-    {
-        id: "social-media-4",
-        icon: linkedin,
-        link: "https://www.linkedin.com/",
-    },
-];
-
-export const clients = [
-    {
-        id: "client-1",
-        logo: airbnb,
-    },
-    {
-        id: "client-2",
-        logo: binance,
-    },
-    {
-        id: "client-3",
-        logo: coinbase,
-    },
-    {
-        id: "client-4",
-        logo: dropbox,
+        content:"Meningkatkan Ketahanan Pangan dan Gizi.",
     },
 ];
 
