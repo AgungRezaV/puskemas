@@ -109,31 +109,12 @@
   color: whitesmoke;
 }
 
-.pencegahan-card {
-  color: black;
-}
-
 .pencegahan-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
   color: rgb(255, 255, 255);
+  border-radius: 25px;
 }
-
-.feedback-container .feedback-card:last-child {
-  margin-right: 0px;
-}
-
-.feedback-card {
-  background: transparent;
-}
-
-/*.feedback-card:hover {
-  background: var(--black-gradient);
-  transition-timing-function: linear;
-  transition-delay: 1s;
-  transform: scale(1.1);
-  background-color: blue;
-}*/
 
 .image-card {
   background: transparent;
@@ -203,13 +184,20 @@
   fill: #EFF6FF80;
 }
 
+.content-card-title {
+  font-family: 'Poppins';
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 1.5rem;
+}
+
 .content-card-css {
-  font-family: 'Poppins', sans-serif;
-  text-align: justify;
-  font-size: 14px;
-  line-height: 24px;
-  max-width: 450px;
-  margin-bottom: 2px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 35px;
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 @media (min-width: 640px) {

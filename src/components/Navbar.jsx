@@ -2,7 +2,6 @@ import { useState } from 'react'
 
 import { close, logoWeb, menu } from '../assets';
 import { navLinks } from '../constants';
-import { Link } from 'react-scroll';
 
 
 const Navbar = () => {
@@ -10,9 +9,7 @@ const Navbar = () => {
 
     return (
         <nav className='w-full flex padding py-6 justify-between items-center'>
-            <div className='flex flex-col'>
-                <img src={logoWeb} alt="logo" className='w-[128px] h-[50%]' />
-            </div>
+            <img src={logoWeb} alt="logo" className='w-[128px] h-[50%]' />
 
             <ul className='list-non md:flex hidden justify-end items-center flex-1'>
                 {navLinks.map((nav, index) => (
@@ -33,7 +30,6 @@ const Navbar = () => {
                     src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain'
                     onClick={() => setToggle((prev) => !prev)}
                 />
-                {/* bg-[#6366f1] */}
                 <div className={`${toggle ? 'flex' : 'hidden'} 
                     p-6 bg-blue-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar}`}
                 >

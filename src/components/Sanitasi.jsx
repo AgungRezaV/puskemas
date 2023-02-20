@@ -4,22 +4,10 @@ import { sanitasi } from '../constants';
 
 const Sanitasi_data = ({ content, img }) => (
     <div id="sanitasi"
-        className='
-        flex 
-        flex-col 
-        w-[200px] 
-        mt-10 
-        transition 
-        ease-in-out 
-        hover:-translate-y-1 
-        hover:scale-110
-        hover:duration-500
-        hover:bg-gray-800
-        hover:text-white-500
-        rounded-[10px]
-        pencegahan-card'
+        className='w-[200px] mt-10 transition ease-in-out hover:-translate-y-1 hover:scale-110 
+        hover:duration-500 hover:bg-green-400 hover:text-white-500 rounded-[10px]'
     >
-        <img src={img} alt="icon" className='w-[42px] h-[42px] mt-5 center'/>
+        <img src={img} alt="icon" className='w-[42px] h-[42px] mt-5 center' />
         <p className='font-poppins text-center font-normal text-[18px] my-2 mx-2'>{content}</p>
     </div>
 

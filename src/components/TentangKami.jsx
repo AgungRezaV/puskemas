@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import styles from '../style';
-import { doctor, wavesNegatives } from '../assets';
+import { doctor } from '../assets';
 import Button from './ButtonWhatsApp';
 import ButtonGform from './ButtonGform';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const Hero = () => {
+const TentangKami = () => {
     useEffect(() => {
         AOS.init({
             offset: 200,
@@ -20,17 +20,11 @@ const Hero = () => {
     return (
         <section id='tentang-kami' className={`flex md:flex-row flex-col relative bg-blue-50`}>
             <div className={`flex-1 ${styles.flexStart} flex-col xl:px-16 px-12 font-poppins`} data-aos='fade-right'>
-                <div className='flex flex-col justify-between items-center'>
-                    <h1 className='flex-1 font-normal ss:text-[72px] text-[42px] ss:mt-0 mt-6'>
-                        Web
-                        <span className='text-blue-900 font-bold'> Stunting</span> {' '}
-                    </h1>
+                <div className='flex flex-col justify-between items-center font-normal ss:text-[72px] text-[42px] ss:mt-0 mt-6'>
+                    <h1>Web<span className='text-blue-900 font-bold'>{' '}Stunting</span></h1>
                 </div>
 
-                <p
-                    className={`${styles.paragraph} text-justify max-w-[900px] mt-5 text-gray-900`}
-                    data-aos='fade-right'
-                >
+                <p className={`${styles.paragraph} text-justify max-w-[900px] mt-5 text-gray-900`} data-aos='fade-right'>
                     Web stunting adalah sebuah situs yang diluncurkan oleh mahasiswa kesehatan masyarakat UIN Syarif Hidayatullah
                     Jakarta untuk menyebarkan informasi tentang stunting serta langkah pencegahannya kepada ibu hamil dan ibu yang
                     memiliki balita di Kelurahan Bakti Jaya khususnya dan secara umum untuk masyarakat yang mengunjungi situs ini.
@@ -41,7 +35,7 @@ const Hero = () => {
                 </p>
 
                 <p className='mt-10'>Klik tombol dibawah untuk Chat atau Konsultasi</p>
-                <div className='flex md:flex-row flex-col md:my-0 my-5'>
+                <div className='flex md:flex-row flex-col md:my-5 my-5'>
                     <a href='https://wa.me/+6285719383938'>
                         <Button styles='' />
                     </a>
@@ -59,4 +53,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default TentangKami;
