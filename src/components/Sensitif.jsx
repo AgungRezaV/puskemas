@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { sensitif_card } from "../constants";
 import styles from "../style";
 import SensitifCard from "./SensitifCard";
-import { cegah_stunting, cegah_stunting_2 } from "../assets";
+import { cegah_stunting_2 } from "../assets";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

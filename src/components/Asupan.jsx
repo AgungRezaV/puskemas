@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import styles from '../style';
 import { deskripsi_nutrisi_ibu, deskripsi_nutrisi_bayi } from '../constants';
-import { wavesAsupan, cegah_stunting } from '../assets';
+import { cegah_stunting } from '../assets';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

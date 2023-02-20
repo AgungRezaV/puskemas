@@ -17,7 +17,7 @@ const App = () => (
       <div className="w-full">
         <img src={wavesOpacity} alt="waves" className='rotate-180 w-full' />
         <Table />
-        <h1 className='bg-red-100 text-gray-500 md:text-[22px] font-poppins text-center font-bold tracking-widest'>Sumber : Kementrian Kesehatan</h1>
+        <h1 className='bg-red-100 text-gray-500 md:text-[18px] md:px-0 px-10 font-poppins text-center font-bold tracking-widest'>Sumber : Peraturan Menteri Kesehatan Republik Indonesia Nomor 2 Tahun 2020. Tentang Standar Antropometri Anak</h1>
         <img src={wavesOpacity} alt="waves" className='w-full' />
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { React, useEffect } from 'react';
 import { dampak_stunting } from '../assets'
 import styles from '../style';
 

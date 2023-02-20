@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import styles from '../style';
 import { doctor } from '../assets';
-import Button from './ButtonWhatsApp';
+import ButtonWhatsApp from './ButtonWhatsApp';
 import ButtonGform from './ButtonGform';
 
 import AOS from 'aos';
@@ -36,11 +36,11 @@ const TentangKami = () => {
 
                 <p className='mt-10'>Klik tombol dibawah untuk Chat atau Konsultasi</p>
                 <div className='flex md:flex-row flex-col md:my-5 my-5'>
-                    <a href='https://wa.me/+6285719383938'>
-                        <Button styles='' />
+                    <a href='https://wa.me/+085935002057'>
+                        <ButtonWhatsApp styles='' />
                     </a>
 
-                    <a href='https://wa.me/+6285719383938'>
+                    <a href='https://forms.gle/742BcVM3F8DJra18A'>
                         <ButtonGform styles='md:ml-5 ml-0 md:mt-0 mt-5' />
                     </a>
                 </div>

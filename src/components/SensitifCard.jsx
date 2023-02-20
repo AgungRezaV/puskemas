@@ -1,4 +1,3 @@
-
 const SensitifCard = ({ content, icon }) => (
     <div id="ciri_card" className='
         flex 
