@@ -25,6 +25,26 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
+    textStyles: {
+      myCustomText: {
+        xs: 'ml-6',
+        fontFamily: { poppins: ["Poppins", "sans-serif"], },
+        textAlign: 'justify',
+        fontWeight: 'normal',
+        textBase: '14px',
+        sx: {
+          maxWidth: '200px',
+        },
+        maxWidth: '450px',
+        leading: '24px',
+        marginBottom: '2',
+      },
+    },
   },
   plugins: [],
+
+  corePlugins: {
+    // Define the class for your reusable text style
+
+  },
 };

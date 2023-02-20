@@ -8,7 +8,8 @@ import Pencegahan from "./Pencegahan";
 import Sensitif from "./Sensitif";
 import Asupan from "./Asupan";
 import Sanitasi from "./Sanitasi";
-import Button from "./Button";
+import Button from "./ButtonWhatsApp";
+import ButtonGform from "./ButtonGform";
 // import Billing from "./Billing";
 // import CardDeal from "./CardDeal";
 // import Business from "./Business";
@@ -31,6 +32,7 @@ export {
     Asupan,
     Sanitasi,
     Button,
+    ButtonGform,
     // Billing,
     // CardDeal,
     // Business,

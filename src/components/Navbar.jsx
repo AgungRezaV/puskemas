@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { close, logo, menu } from '../assets';
+import { close, logoWeb, menu } from '../assets';
 import { navLinks } from '../constants';
 import { Link } from 'react-scroll';
 
@@ -11,11 +11,10 @@ const Navbar = () => {
     return (
         <nav className='w-full flex padding py-6 justify-between items-center'>
             <div className='flex flex-col'>
-                <h1 className='text-[52px] font-bold tracking-widest text-blue-800'> PUSTING </h1>
-                <p>Pusat Informasi Stunting</p>
+                <img src={logoWeb} alt="logo" className='w-[128px] h-[50%]' />
             </div>
 
-            <ul className='list-non sm:flex hidden justify-end items-center flex-1'>
+            <ul className='list-non md:flex hidden justify-end items-center flex-1'>
                 {navLinks.map((nav, index) => (
                     <li
                         key={nav.id}
@@ -29,7 +28,7 @@ const Navbar = () => {
                 ))}
             </ul>
 
-            <div className='sm:hidden flex flex-1 justify-end items-center z-[5] text-white'>
+            <div className='md:hidden flex flex-1 justify-end items-center z-[5] text-white'>
                 <img
                     src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain'
                     onClick={() => setToggle((prev) => !prev)}

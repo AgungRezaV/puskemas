@@ -20,7 +20,7 @@ const Sanitasi_data = ({ content, img }) => (
         pencegahan-card'
     >
         <img src={img} alt="icon" className='w-[42px] h-[42px] mt-5 center'/>
-        <p className='font-poppins text-center font-normal text-[18px] my-2'>{content}</p>
+        <p className='font-poppins text-center font-normal text-[18px] my-2 mx-2'>{content}</p>
     </div>
 
 );
