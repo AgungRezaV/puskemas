@@ -1,4 +1,4 @@
-import { React, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { penyebab_card_content } from '../constants';
 
 import AOS from 'aos';
