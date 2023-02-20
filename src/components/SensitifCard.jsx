@@ -12,10 +12,9 @@ const SensitifCard = ({ content, icon }) => (
         hover:scale-110
         hover:duration-500
         hover:bg-blue-200 
-        rounded-[10px] '
+        rounded-[10px]'
     >
-        {/* <img src={icon} alt="quotes" className="w-[42px] h-[42px] mt-5 center" /> */}
-        <p className='font-poppins text-center font-normal text-[18px] text-black my-5 text-left'>{content}</p>
+        <p className='font-poppins text-center font-normal text-[18px] text-black my-5 md:mx-0 mx-5 text-left'>{content}</p>
     </div>
 );
 

@@ -24,8 +24,11 @@ const Dampak = () => {
                 </div>
                 <div className='flex flex-col gap-12 items-center w-full text-justify' data-aos='fade-left'>
                     <h4 className='text-center text-[24px]'>Dampak buruk yang dapat ditimbulkan oleh stunting :<br /></h4>
-                    <p className={`${styles.paragraph}`}>Dampak jangka pendek adalah terganggunya perkembangan otak, kecerdasan, gangguan pertumbuhan fisik, dan gangguan metabolisme dalam tubuh.</p>
-                    <p className={`${styles.paragraph}`}>Dampak jangka panjang yang dapat ditimbulkan adalah menurunnya kemampuan kognitif dan prestasi belajar, menurunnya kekebalan tubuh sehingga
+                    <p className={`${styles.paragraph}`}>
+                        Dampak jangka pendek adalah terganggunya perkembangan otak, kecerdasan, gangguan pertumbuhan fisik, dan gangguan metabolisme dalam tubuh.
+                    </p>
+                    <p className={`${styles.paragraph}`}>
+                        Dampak jangka panjang yang dapat ditimbulkan adalah menurunnya kemampuan kognitif dan prestasi belajar, menurunnya kekebalan tubuh sehingga
                         mudah sakit, dan resiko tinggi untuk munculnya penyakit diabetes, kegemukan, penyakit jantung dan pembuluh darah, kanker, stroke, dan disabilitas
                         pada usia tua Stunting dan kekurang gizi lainnya yang terjadi di 1.000 HPK berisiko mengalami hambatan pertumbuhan fisik dan semakin rentan
                         terhadap penyakit.

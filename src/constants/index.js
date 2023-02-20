@@ -7,7 +7,6 @@ import {
     introvert,
     person_dress,
     bed_solid,
-    star,
     drumstick,
     hands,
     toilet,
@@ -46,48 +45,44 @@ export const navLinks = [
     },
 ];
 
-export const features = [
+export const penyebab_card_content = [
     {
         id: "feature-1",
-        icon: star,
         title: "Praktek pengasuhan yang tidak baik",
         content:
-            "• Kurang pengetahuan tentang kesehatan dan gizi sebelum dan pada masa kehamilan.",
+            "Kurang pengetahuan tentang kesehatan dan gizi sebelum dan pada masa kehamilan.",
         content2:
-            "• 60 % dari anak usia 0-6 bulan tidak mendapatkan ASI ekslusif.",
+            "60 % dari anak usia 0-6 bulan tidak mendapatkan ASI ekslusif.",
         content3:
-            "• 2 dari 3 anak usia 0-24 bulan tidak menerima Makana Pengganti ASI.",
+            "2 dari 3 anak usia 0-24 bulan tidak menerima Makana Pengganti ASI.",
     },
     {
         id: "feature-2",
-        icon: star,
         title: "Terbatasnya layanan kesehatan termasuk layanan anc (ante natal care), post natal dan pembelajaran dini yang berkualitas ",
         content:
-            "• 1 dari 3 anak usia 3-6 tahun tidak terdaftar di Pendidikan Aanak Usia Dini.",
+            "1 dari 3 anak usia 3-6 tahun tidak terdaftar di Pendidikan Aanak Usia Dini.",
         content2:
-            "• 2 dari 3 ibu hamil belum mengkonsumsi suplemen zat besi yang memadai.",
+            "2 dari 3 ibu hamil belum mengkonsumsi suplemen zat besi yang memadai.",
         content3:
-            "• Menurunnya tingkat kehadiran anak di Posyandu (dari 79% di 2007 menjadi 64% di 2013).",
+            "Menurunnya tingkat kehadiran anak di Posyandu (dari 79% di 2007 menjadi 64% di 2013).",
         content4:
-            "• Tidak mendapat akses yang memadai ke layanan imunisasi.",
+            "Tidak mendapat akses yang memadai ke layanan imunisasi.",
     },
     {
         id: "feature-3",
-        icon: star,
         title: "Kurangnya akses ke makanan bergizi",
         content:
-            "• 1 dari 3 ibu hamil anemia.",
+            "1 dari 3 ibu hamil anemia.",
         content2:
-            "• Makanan bergizi mahal.",
+            "Makanan bergizi mahal.",
     },
     {
         id: "feature-4",
-        icon: star,
         title: "Kurangnya akses ke air bersih dan sanitasi",
         content:
-            "• 1 dari 5 rumah tangga masih BAB diruang terbuka.",
+            "1 dari 5 rumah tangga masih BAB diruang terbuka.",
         content2:
-            "• 1 dari 3 rumah tangga belum memiliki akses ke air minum bersih.",
+            "1 dari 3 rumah tangga belum memiliki akses ke air minum bersih.",
     },
 ];
 
@@ -96,69 +91,69 @@ export const pencegahan_content_data = [
         id: "pencegahan-1",
         title: "Sasaran Ibu Menyusui dan Anak Usia 0-6 Bulan",
         content:
-            "1. Mendorong inisiasi menyusui dini (pemberian ASI jolong/colostrum).",
+            "Mendorong inisiasi menyusui dini (pemberian ASI jolong/colostrum).",
         content2:
-            "2. Mendorong pemberian ASI Eksklusif.",
+            "Mendorong pemberian ASI Eksklusif.",
         content3:
-            "3. Melakukan pemantauan pertumbuhan dan kesehatan anak di Posyandu atau Puskesmas.",
+            "Melakukan pemantauan pertumbuhan dan kesehatan anak di Posyandu atau Puskesmas.",
         content4:
-            "4. Hindari asap rokok dan asap kendaraan.",
+            "Hindari asap rokok dan asap kendaraan.",
 
     },
     {
         id: "pencegahan-2",
         title: "Sasaran Pranikah",
         content:
-            "1. Pencegahan pernikahan dini dan kehamilan pada remaja puteri.",
+            "Pencegahan pernikahan dini dan kehamilan pada remaja puteri.",
         content2:
-            "2.	Pemberian tablet tambah darah pada remaja puteri. ",
+            "Pemberian tablet tambah darah pada remaja puteri. ",
         content3:
-            "3.	Konseling pranikah.",
+            "Konseling pranikah.",
 
     },
     {
         id: "pencegahan-3",
         title: "Sasaran Ibu Menyusui dan Anak Usia 7-23 bulan",
         content:
-            "1. Mendorong penerusan pemberian ASI hingga usia 23 bulan didampingi oleh pemberian MP-ASI.",
+            "Mendorong penerusan pemberian ASI hingga usia 23 bulan didampingi oleh pemberian MP-ASI.",
         content2:
-            "2. Melakukan pemantauan pertumbuhan dan kesehatan anak di Posyandu atau Puskesmas.",
+            "Melakukan pemantauan pertumbuhan dan kesehatan anak di Posyandu atau Puskesmas.",
         content3:
-            "3. Menyediakan obat cacing.",
+            "Menyediakan obat cacing.",
         content4:
-            "4. Menyediakan suplementasi zink.",
+            "Menyediakan suplementasi zink.",
         content5:
-            "5. Melakukan fortifikasi zat besi ke dalam makanan.",
+            "Melakukan fortifikasi zat besi ke dalam makanan.",
         content6:
-            "6. Memberikan perlindungan terhadap malaria.",
+            "Memberikan perlindungan terhadap malaria.",
         content7:
-            "7. Memberikan vitamin A dan imunisasi lengkap.",
+            "Memberikan vitamin A dan imunisasi lengkap.",
         content8:
-            "8. Melakukan pencegahan dan pengobatan diare.",
+            "Melakukan pencegahan dan pengobatan diare.",
         content9:
-            "9. Hindari asap rokok dan asap kendaraan.",
+            "Hindari asap rokok dan asap kendaraan.",
     },
     {
         id: "pencegahan-4",
         title: "Sasaran Ibu Hamil",
         content:
-            "1. Pemberian layanan antenatal sesuai dengan standar, termasuk mengatasi penyakit kronis pada ibu, pemberian makanan tambahan pada ibu hamil KEK, pemberian Buku KIA, edukasi tentang inisiasi menyusu dini (IMD) dan promosi ASI eksklusif.",
+            "Pemberian layanan antenatal sesuai dengan standar, termasuk mengatasi penyakit kronis pada ibu, pemberian makanan tambahan pada ibu hamil KEK, pemberian Buku KIA, edukasi tentang inisiasi menyusu dini (IMD) dan promosi ASI eksklusif.",
         content2:
-            "2. Melakukan persalinan dengan dokter atau bidan yang ahli.",
+            "Melakukan persalinan dengan dokter atau bidan yang ahli.",
         content3:
-            "3. Memberikan makanan tambahan pada ibu hamil untuk mengatasi kekurangan energi dan protein kronis.",
+            "Memberikan makanan tambahan pada ibu hamil untuk mengatasi kekurangan energi dan protein kronis.",
         content4:
-            "4. Memberikan tablet tambah darah minimal 90 tablet selama kehamilan.",
+            "Memberikan tablet tambah darah minimal 90 tablet selama kehamilan.",
         content5:
-            "5. Mengatasi kekurangan zat besi dan asam folat.",
+            "Mengatasi kekurangan zat besi dan asam folat.",
         content6:
-            "6. Mengatasi kekurangan iodium.",
+            "Mengatasi kekurangan iodium.",
         content7:
-            "7. Menanggulangi kecacingan pada ibu hamil.",
+            "Menanggulangi kecacingan pada ibu hamil.",
         content8:
-            "8. Melindungi ibu hamil dari Malaria.",
+            "Melindungi ibu hamil dari Malaria.",
         content9:
-            "9. Hindari asap rokok dan asap kendaraan.",
+            "Hindari asap rokok dan asap kendaraan.",
     },
 ];
 

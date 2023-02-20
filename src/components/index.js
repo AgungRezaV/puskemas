@@ -1,5 +1,4 @@
 import Navbar from "./Navbar";
-import Hero from "./Hero";
 import Penjelasan from "./Penjelasan";
 import Ciri from "./Ciri";
 import Table from "./Table";
@@ -10,19 +9,12 @@ import Asupan from "./Asupan";
 import Sanitasi from "./Sanitasi";
 import Button from "./ButtonWhatsApp";
 import ButtonGform from "./ButtonGform";
-// import Billing from "./Billing";
-// import CardDeal from "./CardDeal";
-// import Business from "./Business";
-// import Clients from "./Clients";
-// import CTA from "./CTA";
-// import Stats from "./Stats";
-// import Footer from "./Footer";
-// import Testimonials from "./Testimonials";
+import TentangKami from "./TentangKami";
 
 
 export {
     Navbar,
-    Hero,
+    TentangKami,
     Penjelasan,
     Ciri,
     Table,
@@ -33,12 +25,4 @@ export {
     Sanitasi,
     Button,
     ButtonGform,
-    // Billing,
-    // CardDeal,
-    // Business,
-    // Clients,
-    // CTA,
-    // Stats,
-    // Footer,
-    // Testimonials,
 };
