@@ -13,7 +13,7 @@ const SensitifCard = ({ content, icon }) => (
         hover:bg-blue-200 
         rounded-[10px]'
     >
-        <p className='font-poppins text-center font-normal text-[18px] text-black my-5 mx-5 text-left'>{content}</p>
+        <p className='font-poppins text-center font-normal text-[18px] text-black my-5   mx-5 text-left'>{content}</p>
     </div>
 );
 

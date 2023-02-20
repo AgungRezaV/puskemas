@@ -24,7 +24,7 @@ const Ciri = () => {
                     <span className='font-bold bg-blue-100 rounded-[20px] leading-[50px]'>Stunting</span> {" "}
                     <br className="sm:block hidden" />pada anak</h1>
                 <div className="w-full md:mt-0 mt-6">
-                    <img src={doctor_exam} alt="doctor" className='rounded-[20px]'/>
+                    <img src={doctor_exam} alt="doctor_exam" className='rounded-[20px]'/>
                 </div>
             </div>
 

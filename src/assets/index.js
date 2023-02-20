@@ -1,6 +1,6 @@
 import menu from "./menu.svg";
 import close from "./close.svg";
-import doctor from "./doctor.png";
+import fotoTeamTransparent from "./foto_team-removebg-preview.png";
 import height from "./person-arrow-up-from-line-solid.svg";
 import weight from "./weight-scale.svg";
 import face_smile from "./face-smile.svg";
@@ -34,7 +34,6 @@ import logoWeb from "./logo-web.png";
 export {
   menu,
   close,
-  doctor,
   height,
   weight,
   face_smile,
@@ -64,4 +63,5 @@ export {
   pencegahanBg,
   cegah_stunting_2,
   logoWeb,
+  fotoTeamTransparent,
 };
