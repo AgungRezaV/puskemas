@@ -36,7 +36,7 @@ const TentangKami = () => {
 
                 <p className='mt-10'>Klik tombol dibawah untuk Chat atau Konsultasi</p>
                 <div className='flex md:flex-row flex-col md:my-5 my-5'>
-                    <a href='https://wa.me/+085935002057'>
+                    <a href='https://wa.me/+6285935002057'>
                         <ButtonWhatsApp styles='' />
                     </a>
 
