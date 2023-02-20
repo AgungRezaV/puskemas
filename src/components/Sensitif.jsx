@@ -23,7 +23,7 @@ const Sensitif = () => {
                 </div>
             </div>
 
-            <div className="flex flex-wrap justify-evenly feedback-container relative z-[1]" data-aos="fade-right">
+            <div className="flex flex-wrap justify-evenly feedback-container relative z-[1] mx-5" data-aos="fade-right">
                 {sensitif_card.map((card) => (
                     <SensitifCard key={card.id} {...card} />
                 ))}
