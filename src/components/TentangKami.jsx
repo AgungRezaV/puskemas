@@ -24,7 +24,7 @@ const TentangKami = () => {
                     <h1>Web<span className='text-blue-900 font-bold'>{' '}Pusting</span></h1>
                 </div>
 
-                <p className={`${styles.paragraph} max-w-[900px] mt-5 text-gray-900`} data-aos='fade-right'>
+                <p className={`${styles.paragraph} max-w-[900px] mt-5 text-gray-900 text-justify`} data-aos='fade-right'>
                     Web Pusting adalah sebuah situs yang diluncurkan oleh mahasiswa kesehatan masyarakat UIN Syarif Hidayatullah
                     Jakarta untuk menyebarkan informasi tentang stunting serta langkah pencegahannya kepada ibu hamil dan ibu yang
                     memiliki balita di Kelurahan Bakti Jaya khususnya dan secara umum untuk masyarakat yang mengunjungi situs ini.
@@ -35,7 +35,7 @@ const TentangKami = () => {
                 </p>
 
                 <p className='mt-10'>Klik tombol dibawah untuk Chat atau Konsultasi</p>
-                <div className='flex md:flex-row flex-col md:my-5 my-5'>
+                <div className='flex md:flex-row flex-col md:my-5 my-5 drop-shadow-xl'>
                     <a href='https://wa.me/+6285935002057'>
                         <ButtonWhatsApp styles='' />
                     </a>
