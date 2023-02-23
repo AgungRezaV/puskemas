@@ -13,10 +13,10 @@ const Cards = ({ title, content, content2, content3, content4, i }) => (
                 </h4>
                 <div className='content-card-css'>
                     <ul className='list-decimal'>
-                        {content &&<li>{content}</li>}
-                        {content2 &&<li>{content2}</li>}
-                        {content3 &&<li>{content3}</li>}
-                        {content4 &&<li>{content4}</li>}
+                        {content && <li>{content}</li>}
+                        {content2 && <li>{content2}</li>}
+                        {content3 && <li>{content3}</li>}
+                        {content4 && <li>{content4}</li>}
                     </ul>
                 </div>
             </div>
@@ -47,14 +47,22 @@ const Penjelasan = () => {
                         Anak tergolong stunting apabila panjang atau tinggi badannya berada di bawah minus dua (-2) standar deviasi panjang atau tinggi badan anak seumurnya.
                     </p>
                 </div>
-                
+
                 <h1 className="text-center text-[50px] font-semibold mt-5" data-aos="fade-up">Penyebab Stunting</h1>
 
-                <div className={`flex flex-wrap my-10 md:mx-10 relative justify-evenly md:text-justify text-left`}>
-                    {penyebab_card_content.map((feature, i) => (
-                        <Cards key={feature.id} {...feature} index={i} />
-                    ))}
+                <div className={`flex flex-wrap my-10 mx-10 relative justify-evenly`}>
+                    <div className="flex flex-wrap justify-evenly w-full">
+                        {penyebab_card_content.slice(0, 2).map((feature, i) => (
+                            <Cards key={feature.id} {...feature} index={i} />
+                        ))}
+                    </div>
+                    <div className="flex flex-wrap justify-evenly w-full mt-10">
+                        {penyebab_card_content.slice(2, 4).map((feature, i) => (
+                            <Cards key={feature.id} {...feature} index={i} />
+                        ))}
+                    </div>
                 </div>
+
             </div>
         </section>
     );

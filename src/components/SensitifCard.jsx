@@ -1,11 +1,10 @@
-
 const SensitifCard = ({ content, icon }) => (
     <div id="ciri_card" className='
         flex 
         flex-col
         content  
         w-[350px] 
-        mt-10 
+        mt-5 
         transition 
         ease-in-out 
         hover:-translate-y-1 
@@ -14,7 +13,7 @@ const SensitifCard = ({ content, icon }) => (
         hover:bg-blue-200 
         rounded-[10px]'
     >
-        <p className='font-poppins text-center font-normal text-[18px] text-black my-5 md:mx-0 mx-5 text-left'>{content}</p>
+        <p className='font-poppins text-center font-normal text-[18px] text-black my-5   mx-5 text-left'>{content}</p>
     </div>
 );
 

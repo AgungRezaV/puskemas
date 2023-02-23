@@ -49,7 +49,7 @@ const Pencegahan = () => {
             backgroundPosition: 'center',
         }} className={`${styles.paddingX} flex flex-col text-black`}>
 
-            <div data-aos='fade-up' className=''>
+            <div data-aos='fade-up'>
                 <h1 className='text-center text-[48px] tracking-wide font-bold my-5'>Pencegahan {" "}
                     <span className='font-bold text-blue-900 leading-[50px] tracking-widest'>Stunting</span>
                 </h1>
@@ -63,11 +63,17 @@ const Pencegahan = () => {
                     <h4>Pencegahan Spesifik Terhadap Stunting :</h4>
                 </div>
 
-                <div className="flex flex-wrap my-10 md:mx-10 relative justify-evenly md:text-justify">
-                    {pencegahan_content_data.map((feature, i) => (
+                <div className="flex flex-wrap my-10 mx-5 relative justify-evenly md:text-justify">
+                    {pencegahan_content_data.slice(0, pencegahan_content_data.length / 2).map((feature, i) => (
                         <PenyebabCard key={feature.id} {...feature} index={i} />
                     ))}
                 </div>
+                <div className="flex flex-wrap my-10 mx-5 relative justify-evenly md:text-justify">
+                    {pencegahan_content_data.slice(pencegahan_content_data.length / 2).map((feature, i) => (
+                        <PenyebabCard key={feature.id} {...feature} index={i} />
+                    ))}
+                </div>
+
             </div>
         </div>
     )

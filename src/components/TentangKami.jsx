@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import styles from '../style';
-import { doctor } from '../assets';
-import Button from './ButtonWhatsApp';
+import { fotoTeamTransparent_Test } from '../assets';
+import ButtonWhatsApp from './ButtonWhatsApp';
 import ButtonGform from './ButtonGform';
 
 import AOS from 'aos';
@@ -19,13 +19,13 @@ const TentangKami = () => {
 
     return (
         <section id='tentang-kami' className={`flex md:flex-row flex-col relative bg-blue-50`}>
-            <div className={`flex-1 ${styles.flexStart} flex-col xl:px-16 px-12 font-poppins`} data-aos='fade-right'>
-                <div className='flex flex-col justify-between items-center font-normal ss:text-[72px] text-[42px] ss:mt-0 mt-6'>
-                    <h1>Web<span className='text-blue-900 font-bold'>{' '}Stunting</span></h1>
+            <div className={`flex-1 md:flex-row max-w-[900px] xl:px-16 px-12 font-poppins`} data-aos='fade-right'>
+                <div className='flex font-normal text-[72px] text-[42px]'>
+                    <h1>Web<span className='text-blue-900 font-bold'>{' '}Pusting</span></h1>
                 </div>
 
-                <p className={`${styles.paragraph} text-justify max-w-[900px] mt-5 text-gray-900`} data-aos='fade-right'>
-                    Web stunting adalah sebuah situs yang diluncurkan oleh mahasiswa kesehatan masyarakat UIN Syarif Hidayatullah
+                <p className={`${styles.paragraph} max-w-[900px] mt-5 text-gray-900 text-justify`} data-aos='fade-right'>
+                    Web Pusting adalah sebuah situs yang diluncurkan oleh mahasiswa kesehatan masyarakat UIN Syarif Hidayatullah
                     Jakarta untuk menyebarkan informasi tentang stunting serta langkah pencegahannya kepada ibu hamil dan ibu yang
                     memiliki balita di Kelurahan Bakti Jaya khususnya dan secara umum untuk masyarakat yang mengunjungi situs ini.
                     <br /> <br />
@@ -35,20 +35,21 @@ const TentangKami = () => {
                 </p>
 
                 <p className='mt-10'>Klik tombol dibawah untuk Chat atau Konsultasi</p>
-                <div className='flex md:flex-row flex-col md:my-5 my-5'>
-                    <a href='https://wa.me/+6285719383938'>
-                        <Button styles='' />
+                <div className='flex md:flex-row flex-col md:my-5 my-5 drop-shadow-xl'>
+                    <a href='https://wa.me/+6285935002057'>
+                        <ButtonWhatsApp styles='' />
                     </a>
 
-                    <a href='https://wa.me/+6285719383938'>
+                    <a href='https://forms.gle/742BcVM3F8DJra18A'>
                         <ButtonGform styles='md:ml-5 ml-0 md:mt-0 mt-5' />
                     </a>
                 </div>
-            </div>
 
-            <div data-aos='fade-left'>
-                <img src={doctor} alt='doctor' className='md:w-[100%] w-[50%] md:h-[100%] h-[50%] center relative z-[5]' />
+                <div data-aos='fade-left'>
+
+                </div>
             </div>
+            <img src={fotoTeamTransparent_Test} alt='fotoTeam' className='m-auto z-[5]' data-aos='fade-left' />
         </section>
     );
 };
