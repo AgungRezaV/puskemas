@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import styles from '../style';
-import { fotoTeamTransparent } from '../assets';
+import { fotoTeamTransparent_Test } from '../assets';
 import ButtonWhatsApp from './ButtonWhatsApp';
 import ButtonGform from './ButtonGform';
 
@@ -49,7 +49,7 @@ const TentangKami = () => {
 
                 </div>
             </div>
-            <img src={fotoTeamTransparent} alt='fotoTeam' className='m-auto z-[5]' data-aos='fade-left' />
+            <img src={fotoTeamTransparent_Test} alt='fotoTeam' className='m-auto z-[5]' data-aos='fade-left' />
         </section>
     );
 };
